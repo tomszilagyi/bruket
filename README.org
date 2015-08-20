@@ -1,0 +1,73 @@
+#+TITLE: Bruket
+#+AUTHOR: Tom Szilagyi
+
+* What and why?
+
+What happens when you find yourself living in a foreign country you
+always wanted to be in, but with a local language you are -- to put it
+softly -- not so fluent in? Well, you try to learn it. To be able to
+understand and speak a language, you need vocabulary more than
+anything else. Yes, you also need grammar, but without vocabulary --
+all the words for things and concepts -- you have absolutely nothing.
+
+There are always new words to learn in a language. So what happens
+when unknown words pop up anywhere around you, from road signs to
+restaurant menus to invoices and bank account statements, to -- since
+you're also taking a course -- your homework assignment?  Well, you
+look them up in a dictionary, of course. But then you always, /always/
+forget them again! That's just the way it is. And then you have to
+look them up again, and again, and maybe after 5-6 rounds, the word
+will /finally/ stick to the inner side of your skull, and stay there
+for good. (Yes, I am assuming that you are more than 6 years old. If
+that assumption is wrong, you can stop reading here.)
+
+In one word: to learn a language, you need /exposure/ to the language.
+You need to expose yourself again and again to those things you need
+to learn, those words you need to learn right now. (The list of these
+words changes as you proceed, since you don't have to constantly
+re-learn everything once you learnt them. Properly learnt them, that
+is.)
+
+And if you happen to be a programmer, your only natural reaction to
+that is to write a program to solve the problem. And that is how
+/Bruket/ (which is in Swedish -- the language I'm learning -- and can
+be translated as /the habit/) was born.
+
+/Bruket/ is a tool for practicing vocabulary. It is primarily aimed at
+building up passive knowledge (which you can later turn into active
+knowledge) via simple automated drills. The drills and their input
+data (the words you actually want to be learning right now) can be
+easily changed and extended, and you are strongly encouraged to do
+just that in order for the program to be useful to you. Don't worry,
+you don't need to do anything more complicated than editing simple
+text files.
+
+* Who can use Bruket?
+
+The reason I am publishing this piece of software (unlike many others
+I tend to write for my own usage) is that I think that many people may
+find this useful, people who are trying to learn in essence any
+foreign language. The fact that I'm learning Swedish via Bruket does
+not mean that you can't use it to learn any other language.
+
+The primary promise of using Bruket is that you will be able to
+practice the vocabulary you need to practice most. The words you know
+are important, and have already seen, but just haven't yet sticked
+into your very-long-term memory. Once you have acquired a particular
+set of words, you can move on to the next set. You can also transition
+gradually by constantly adding new words to your practice set and let
+them fade away as your scores with them improve and you add even newer
+ones.
+
+* What kind of drills does Bruket support?
+
+The primary usage of Bruket is to learn the meaning of new words, thus
+to expand your (passive) vocabulary. But you can also use it for other
+things, for example to learn the form of strong verbs in different
+tenses, or the grammatical gender of nouns (en/ett in Swedish or
+der/die/das in German).
+
+Drill types are extendable, but you might need to do a small bit of
+programming to do that, as opposed to using the existing drill types
+where you just maintain simple text files containing the material you
+want to learn.

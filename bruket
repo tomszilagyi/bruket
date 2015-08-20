@@ -1,0 +1,66 @@
+#!/usr/bin/env escript
+%% -*- erlang -*-
+
+-mode(compile).
+
+-define(INITIAL_WEIGHT, 3).
+
+-record(word, { type :: noun | verb | adverb | adjective | other
+              , subtype :: atom() % type-dependent, eg. gender for nouns, declension group for verbs
+              , forms :: [string()] % forms to write the word
+              , trans :: [string()] % translations
+              }).
+
+%% This will come from parsing a text file
+words() ->
+    [#word{type=noun, subtype=en, forms=["bock"], trans=["goat"]},
+     #word{type=noun, subtype=en, forms=["böckling"], trans=["buckling", "smoked Baltic herring"]},
+     #word{type=noun, subtype=plural, forms=["dillkronor"], trans=["dill", "kapor"]},
+     #word{type=noun, subtype=en, forms=["förberedelse"], trans=["preparation"]},
+     #word{type=noun, subtype=ett, forms=["redskap"], trans=["tool (also fig.)"]}].
+
+%% Read practice file containing entries: {Key, Value}
+%% Assign default weight to each entry.
+%% Based on relative weights as a probability distribution:
+%% Choose random entry {K, V} and two more randomly chosen ones {_, V1}, {, V2}.
+%% Show K and below it a chooser with V, V1, V2 in random order.
+%% If user chooses correct one (V), decrease weight of entry
+%% and increase number of correct hits for that entry in a row.
+%% If that number reaches 3, reduce weight to 0 (never choose it again).
+%% In case of incorrect answer, show correct answer and increase
+%% weight of entry, also zero out the number of correct hits lately.
+%% Repeat until all entries have zero weight.
+
+shuffle([])     -> [];
+shuffle([A])    -> [A];
+shuffle([A, B]) -> [B, A];
+shuffle(L)      -> shuffle(L, length(L), length(L)).
+
+shuffle(L, 0, _Len) -> L;
+shuffle(L, N, Len)  ->
+    I = 1 + random:uniform(Len-2),
+    {La, [E|Lb]} = lists:split(I, L),
+    shuffle([E|La]++lists:reverse(Lb), N-1, Len).
+
+practice(Words) ->
+    %% Each entry in the list must be present the number of times dictated by its weight.
+    %% So for the initial setup, replicate everything INITIAL_WEIGHT times.
+    RepWords = lists:flatten(lists:duplicate(?INITIAL_WEIGHT, [Words])),
+    do_practice(shuffle(RepWords)).
+
+do_practice([]) ->
+    ok;
+do_practice([W|Rest] = Words) ->
+    case ask(W, Rest) of
+        correct -> do_practice(Rest);
+        faulty  -> do_practice(shuffle([W|Words]))
+    end.
+
+ask(W, Others) ->
+    % choose 2 others (must not be duplicates)
+    % print key and present options (in random order)
+
+main(Args) ->
+    random:seed(erlang:now()),
+    io:format("Args: ~p~n", [Args]),
+    practice(words()).
