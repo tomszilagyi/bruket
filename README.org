@@ -13,25 +13,23 @@ all the words for things and concepts -- you have absolutely nothing.
 There are always new words to learn in a language. So what happens
 when unknown words pop up anywhere around you, from road signs to
 restaurant menus to invoices and bank account statements, to -- since
-you're also taking a course -- your homework assignment?  Well, you
-look them up in a dictionary, of course. But then you always, /always/
-forget them again! That's just the way it is. And then you have to
-look them up again, and again, and maybe after 5-6 rounds, the word
-will /finally/ stick to the inner side of your skull, and stay there
-for good. (Yes, I am assuming that you are more than 6 years old. If
-that assumption is wrong, you can stop reading here.)
+you're also taking a language course -- your homework assignment?
+Well, you look them up in a dictionary, of course. But then you
+always, /always/ forget them again! That's just the way it is. And
+then you have to look them up again, and again, and maybe after 5-6
+rounds, the word will /finally/ stick to the inner side of your skull,
+and stay there for good. (Yes, I am assuming that you are more than 6
+years old. If that assumption is wrong, you can stop reading here.)
 
-In one word: to learn a language, you need /exposure/ to the language.
-You need to expose yourself again and again to those things you need
-to learn, those words you need to learn right now. (The list of these
-words changes as you proceed, since you don't have to constantly
-re-learn everything once you learnt them. Properly learnt them, that
-is.)
+In one word: to learn a language, you need /repetitive exposure/ to
+the language.  You need to expose yourself again and again to those
+things you need to learn, those words you need to learn right
+now.
 
 And if you happen to be a programmer, your only natural reaction to
-that is to write a program to solve the problem. And that is how
-/Bruket/ (which is in Swedish -- the language I'm learning -- and can
-be translated as /the habit/) was born.
+this realisation is to write a program to solve the problem. And that
+is how /Bruket/ was born. (The name is a word in Swedish -- the
+language I'm learning -- and can be translated as /the habit/.)
 
 /Bruket/ is a tool for practicing vocabulary. It is primarily aimed at
 building up passive knowledge (which you can later turn into active
@@ -51,13 +49,12 @@ foreign language. The fact that I'm learning Swedish via Bruket does
 not mean that you can't use it to learn any other language.
 
 The primary promise of using Bruket is that you will be able to
-practice the vocabulary you need to practice most. The words you know
-are important, and have already seen, but just haven't yet sticked
-into your very-long-term memory. Once you have acquired a particular
-set of words, you can move on to the next set. You can also transition
+practice the vocabulary you need to practice most. Those words that
+you know are important, and have already seen, but just don't yet have
+in your very-long-term memory. Once you have acquired a particular set
+of words, you can move on to the next set. You can also transition
 gradually by constantly adding new words to your practice set and let
-them fade away as your scores with them improve and you add even newer
-ones.
+the older ones fade away.
 
 * What kind of drills does Bruket support?
 

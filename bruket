@@ -3,13 +3,17 @@
 
 -mode(compile).
 
--define(INITIAL_WEIGHT, 3).
+-define(INITIAL_WEIGHT, 1).
 
 -record(word, { type :: noun | verb | adverb | adjective | other
               , subtype :: atom() % type-dependent, eg. gender for nouns, declension group for verbs
               , forms :: [string()] % forms to write the word
               , trans :: [string()] % translations
               }).
+
+-record(entry, { q :: string() % problem/question
+               , a :: string() % correct answer
+               }).
 
 %% This will come from parsing a text file
 words() ->
@@ -19,18 +23,57 @@ words() ->
      #word{type=noun, subtype=en, forms=["förberedelse"], trans=["preparation"]},
      #word{type=noun, subtype=ett, forms=["redskap"], trans=["tool (also fig.)"]}].
 
-%% Read practice file containing entries: {Key, Value}
-%% Assign default weight to each entry.
-%% Based on relative weights as a probability distribution:
-%% Choose random entry {K, V} and two more randomly chosen ones {_, V1}, {, V2}.
-%% Show K and below it a chooser with V, V1, V2 in random order.
-%% If user chooses correct one (V), decrease weight of entry
-%% and increase number of correct hits for that entry in a row.
-%% If that number reaches 3, reduce weight to 0 (never choose it again).
-%% In case of incorrect answer, show correct answer and increase
-%% weight of entry, also zero out the number of correct hits lately.
-%% Repeat until all entries have zero weight.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Drills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%% Recognize the meaning of a word
+entries(meaning, Words) ->
+    lists:map(fun(#word{forms=Forms, trans=Trans}) ->
+                      #entry{q=string:join(Forms, ", "),
+                             a=string:join(Trans, ", ")}
+              end, Words);
+entries(_DrillType, _Words) ->
+    [].
+
+drill(Entries) ->
+    %% Each entry in the list must be present the number of times according to its weight.
+    %% So for the initial setup, replicate everything INITIAL_WEIGHT times.
+    RepEntries = lists:flatten(lists:duplicate(?INITIAL_WEIGHT, [Entries])),
+    do_drill(shuffle(RepEntries), Entries).
+
+do_drill([], _All)                    -> finished;
+do_drill([Entry|Rest] = Entries, All) ->
+    NRem = length(Entries),
+    case ask(Entry, All, NRem) of
+        correct -> do_drill(Rest, All);
+        faulty  -> do_drill(shuffle([Entry|Entries]), All)
+    end.
+
+ask(Entry, Others, NRem) ->
+    % choose 2 others (must not be duplicates)
+    % print key and present options (in random order)
+    Other1 = choose(Others, [Entry]),
+    Other2 = choose(Others, [Entry, Other1]),
+    ask(Entry, Other1, Other2, NRem).
+
+ask(#entry{q=Q, a=GoodA}, #entry{a=Bad1A}, #entry{a=Bad2A}, NRem) ->
+    Options = shuffle([GoodA, Bad1A, Bad2A]),
+    case do_ask(Q, Options, NRem) of
+        GoodA -> correct;
+        _     -> io:format("Correct answer: ~s~n", [GoodA]),
+                 faulty
+    end.
+
+main(_Args) ->
+    random:seed(erlang:now()),
+    drill(entries(meaning, words())).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Utility functions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Shuffle a list like you would shuffle a deck of cards.
 shuffle([])     -> [];
 shuffle([A])    -> [A];
 shuffle([A, B]) -> [B, A];
@@ -38,29 +81,34 @@ shuffle(L)      -> shuffle(L, length(L), length(L)).
 
 shuffle(L, 0, _Len) -> L;
 shuffle(L, N, Len)  ->
-    I = 1 + random:uniform(Len-2),
+    I = random:uniform(Len-1),
     {La, [E|Lb]} = lists:split(I, L),
     shuffle([E|La]++lists:reverse(Lb), N-1, Len).
 
-practice(Words) ->
-    %% Each entry in the list must be present the number of times dictated by its weight.
-    %% So for the initial setup, replicate everything INITIAL_WEIGHT times.
-    RepWords = lists:flatten(lists:duplicate(?INITIAL_WEIGHT, [Words])),
-    do_practice(shuffle(RepWords)).
-
-do_practice([]) ->
-    ok;
-do_practice([W|Rest] = Words) ->
-    case ask(W, Rest) of
-        correct -> do_practice(Rest);
-        faulty  -> do_practice(shuffle([W|Words]))
+%% Randomly choose one element of L that is not present in Exceptions.
+%% Note that exception items may be present in L multiple times.
+choose([], _)         -> throw(choose_impossible);
+choose(L, Exceptions) ->
+    E = lists:nth(random:uniform(length(L)), L),
+    case lists:member(E, Exceptions) of
+        true  -> choose(L--Exceptions, Exceptions);
+        false -> E
     end.
 
-ask(W, Others) ->
-    % choose 2 others (must not be duplicates)
-    % print key and present options (in random order)
-
-main(Args) ->
-    random:seed(erlang:now()),
-    io:format("Args: ~p~n", [Args]),
-    practice(words()).
+%% Present the user with a question and a list of answers and let them choose
+%% one of the answers. The chosen answer will be the return value.
+do_ask(Question, Answers, NRem) ->
+    io:format("~nQ.~B: ~s~n", [NRem, Question]),
+    N = length(Answers),
+    NumberedAnswers = lists:zip(lists:seq(1, N), Answers),
+    lists:foreach(fun({Seq, Ans}) ->
+                          io:format("  ~B: ~s~n", [Seq, Ans])
+                  end, NumberedAnswers),
+    try
+        [Ch,$\n] = io:get_line("> "),
+        ChosenSeq = list_to_integer([Ch]),
+        lists:nth(ChosenSeq, Answers)
+    catch _:_ ->
+            io:format("Just a number (1-~B), please!~n", [N]),
+            do_ask(Question, Answers, NRem)
+    end.
