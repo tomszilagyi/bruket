@@ -1,24 +1,30 @@
 #!/usr/bin/env escript
 %% -*- erlang -*-
 
+-define(GENDER_LIST, ["en", "ett", "pl."]).
 -define(INITIAL_WEIGHT, 1).
 
 -record(word, { type    :: noun | verb | adverb | adjective | other
-              , subtype :: atom()     % type-dependent, eg. gender for nouns,
-                                      % declension group for verbs, etc.
+                %% type-dependent, eg. gender for nouns, declension
+                %% group for verbs, etc.
+              , subtype :: atom()
               , forms   :: [string()] % forms to write the word
               , trans   :: [string()] % translations
               }).
 
--record(entry, { q :: string()   % problem/question
-               , a :: string()   % correct answer
-               , o :: [string()] % list of other (incorrect) answers
+-record(entry, { q     :: string()   % problem/question
+               , a     :: string()   % correct answer
+                 %% list of possible (including incorrect) answers, or a
+                 %% function that generates them.
+               , all_a :: [string()] | function()
                }).
 
 main(_Args) ->
     io:setopts([{encoding, unicode}]),
     random:seed(erlang:now()),
-    drill(entries(meaning, words())).
+    Words = words(),
+    Entries = entries(meaning, Words) ++ entries(gender, Words),
+    drill(Entries).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Parser
@@ -63,19 +69,25 @@ parse_entry(Type, Forms, Trans) ->
 %% Drills
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-entries(DrillType, Words) ->
-    [mk_entry(DrillType, W, Words) || W <- Words].
+entries(meaning, Words) ->
+    [mk_entry(meaning, W, Words) || W <- Words];
+entries(gender, Words) ->
+    [mk_entry(gender, W, Words) || W <- Words, W#word.type =:= noun].
 
-%% Recognize the meaning of a word
-mk_entry(meaning, #word{type=Type, forms=Forms, trans=Trans}=W, Words) ->
-    OtherWords = [Wo || Wo <- Words, Wo =/= W, Wo#word.type =:= Type],
-    OtherAns = [string:join(Wo#word.trans, ", ") || Wo <- OtherWords],
+%% Recognize the meaning of words
+mk_entry(meaning, #word{type=Type, forms=Forms, trans=Trans}, Words) ->
+    GoodAnswer = string:join(Trans, ", "),
+    AllAnswers = [string:join(Wo#word.trans, ", ") ||
+                     Wo <- Words, Wo#word.type =:= Type],
     #entry{q=string:join(Forms, ", "),
-           a=string:join(Trans, ", "),
-           o=OtherAns};
-mk_entry(_DrillType, _W, _Words) ->
-    #entry{}.
-
+           a=GoodAnswer,
+           all_a=mk_choose_answers(GoodAnswer, AllAnswers)};
+%% Know the gender of nouns
+mk_entry(gender, #word{forms=[Noun, Gender | _]}, _Words) ->
+    AllAnswers = ?GENDER_LIST,
+    #entry{q=Noun,
+           a=Gender,
+           all_a=AllAnswers}.
 
 drill(Entries) ->
     %% Each entry in the list must be present the number of times
@@ -92,15 +104,11 @@ do_drill([Entry|Rest] = Entries) ->
         faulty  -> do_drill(shuffle([Entry|Entries]))
     end.
 
-ask(#entry{a=GoodA, o=OtherAns}=Entry, NRem) ->
-    % choose 2 others (must not be duplicates)
-    % print key and present options (in random order)
-    BadA1 = choose(OtherAns, [GoodA]),
-    BadA2 = choose(OtherAns, [GoodA, BadA1]),
-    ask(Entry, [BadA1, BadA2], NRem).
-
-ask(#entry{q=Q, a=GoodA}, BadAnswers, NRem) ->
-    Options = shuffle([GoodA | BadAnswers]),
+ask(#entry{q=Q, a=GoodA, all_a=AllAnswers}, NRem) ->
+    Options = case is_function(AllAnswers) of
+                  true  -> AllAnswers();
+                  false -> AllAnswers
+              end,
     case do_ask(Q, Options, NRem) of
         GoodA -> correct;
         _     -> io:format("Correct answer: ~s~n", [GoodA]),
@@ -181,3 +189,11 @@ tokenize_csv([])     -> throw(empty);
 tokenize_csv(String) ->
     Toks = string:tokens(String, ","),
     [string:strip(T) || T <- Toks].
+
+%% Return a function to generate answers.
+mk_choose_answers(GoodAnswer, AllAnswers) ->
+    fun() ->
+            BadA1 = choose(AllAnswers, [GoodAnswer]),
+            BadA2 = choose(AllAnswers, [GoodAnswer, BadA1]),
+            shuffle([GoodAnswer, BadA1, BadA2])
+    end.
