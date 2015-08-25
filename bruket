@@ -38,8 +38,16 @@ parse(Filename, AccIn) ->
     file:close(IoDev),
     Chars = unicode:characters_to_list(Bin, unicode),
     Lines = string:tokens(Chars, "\n"),
-    lists:foldl(fun(Line, Acc) -> [parse_line(Type, Line) | Acc] end,
-                AccIn, Lines).
+    NumberedLines = lists:zip(lists:seq(1, length(Lines)), Lines),
+    lists:foldl(fun({Num, Line}, Acc) ->
+                        try [parse_line(Type, Line) | Acc]
+                        catch _:_ ->
+                            io:format("~p: skipping line ~B: ~p~n",
+                                      [Type, Num, Line]),
+                            Acc
+                        end
+                end,
+                AccIn, NumberedLines).
 
 parse_line(Type, Line) ->
     %% Largest chunk of whitespace separates forms from translations
@@ -169,6 +177,7 @@ chunks_to_string(Chunks) ->
 
 %% Tokenize a string containing comma-separated values. Return list of
 %% tokens with whitespace removed.
+tokenize_csv([])     -> throw(empty);
 tokenize_csv(String) ->
     Toks = string:tokens(String, ","),
     [string:strip(T) || T <- Toks].
