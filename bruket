@@ -1,73 +1,103 @@
 #!/usr/bin/env escript
 %% -*- erlang -*-
 
--mode(compile).
-
 -define(INITIAL_WEIGHT, 1).
 
--record(word, { type :: noun | verb | adverb | adjective | other
-              , subtype :: atom() % type-dependent, eg. gender for nouns, declension group for verbs
-              , forms :: [string()] % forms to write the word
-              , trans :: [string()] % translations
+-record(word, { type    :: noun | verb | adverb | adjective | other
+              , subtype :: atom()     % type-dependent, eg. gender for nouns,
+                                      % declension group for verbs, etc.
+              , forms   :: [string()] % forms to write the word
+              , trans   :: [string()] % translations
               }).
 
--record(entry, { q :: string() % problem/question
-               , a :: string() % correct answer
+-record(entry, { q :: string()   % problem/question
+               , a :: string()   % correct answer
+               , o :: [string()] % list of other (incorrect) answers
                }).
 
-%% This will come from parsing a text file
+main(_Args) ->
+    io:setopts([{encoding, unicode}]),
+    random:seed(erlang:now()),
+    drill(entries(meaning, words())).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Parser
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 words() ->
-    [#word{type=noun, subtype=en, forms=["bock"], trans=["goat"]},
-     #word{type=noun, subtype=en, forms=["böckling"], trans=["buckling", "smoked Baltic herring"]},
-     #word{type=noun, subtype=plural, forms=["dillkronor"], trans=["dill", "kapor"]},
-     #word{type=noun, subtype=en, forms=["förberedelse"], trans=["preparation"]},
-     #word{type=noun, subtype=ett, forms=["redskap"], trans=["tool (also fig.)"]}].
+    words(filelib:wildcard("*.txt")).
+
+words(FileList) ->
+    lists:foldl(fun(Filename, Acc) -> parse(Filename, Acc) end, [], FileList).
+
+parse(Filename, AccIn) ->
+    [TypeStr | _] = string:tokens(Filename, "."),
+    Type = list_to_atom(TypeStr),
+    {ok, IoDev} = file:open(Filename, [read, binary, {encoding, utf8}]),
+    Bin = io:get_chars(IoDev, "", filelib:file_size(Filename)),
+    file:close(IoDev),
+    Chars = unicode:characters_to_list(Bin, unicode),
+    Lines = string:tokens(Chars, "\n"),
+    lists:foldl(fun(Line, Acc) -> [parse_line(Type, Line) | Acc] end,
+                AccIn, Lines).
+
+parse_line(Type, Line) ->
+    %% Largest chunk of whitespace separates forms from translations
+    {Forms, Trans} = split_blank(Line),
+    parse_entry(Type, tokenize_csv(Forms), tokenize_csv(Trans)).
+
+%% This can be split into multiple clauses based on Type.
+%% Eg. for nouns, 2nd form contains gender (subtype) by convention.
+parse_entry(Type, Forms, Trans) ->
+    #word{type=Type, forms=Forms, trans=Trans}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Drills
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+entries(DrillType, Words) ->
+    [mk_entry(DrillType, W, Words) || W <- Words].
+
 %% Recognize the meaning of a word
-entries(meaning, Words) ->
-    lists:map(fun(#word{forms=Forms, trans=Trans}) ->
-                      #entry{q=string:join(Forms, ", "),
-                             a=string:join(Trans, ", ")}
-              end, Words);
-entries(_DrillType, _Words) ->
-    [].
+mk_entry(meaning, #word{type=Type, forms=Forms, trans=Trans}=W, Words) ->
+    OtherWords = [Wo || Wo <- Words, Wo =/= W, Wo#word.type =:= Type],
+    OtherAns = [string:join(Wo#word.trans, ", ") || Wo <- OtherWords],
+    #entry{q=string:join(Forms, ", "),
+           a=string:join(Trans, ", "),
+           o=OtherAns};
+mk_entry(_DrillType, _W, _Words) ->
+    #entry{}.
+
 
 drill(Entries) ->
-    %% Each entry in the list must be present the number of times according to its weight.
-    %% So for the initial setup, replicate everything INITIAL_WEIGHT times.
+    %% Each entry in the list must be present the number of times
+    %% according to its weight. So for the initial setup, replicate
+    %% everything INITIAL_WEIGHT times.
     RepEntries = lists:flatten(lists:duplicate(?INITIAL_WEIGHT, [Entries])),
-    do_drill(shuffle(RepEntries), Entries).
+    do_drill(shuffle(RepEntries)).
 
-do_drill([], _All)                    -> finished;
-do_drill([Entry|Rest] = Entries, All) ->
+do_drill([])                     -> finished;
+do_drill([Entry|Rest] = Entries) ->
     NRem = length(Entries),
-    case ask(Entry, All, NRem) of
-        correct -> do_drill(Rest, All);
-        faulty  -> do_drill(shuffle([Entry|Entries]), All)
+    case ask(Entry, NRem) of
+        correct -> do_drill(Rest);
+        faulty  -> do_drill(shuffle([Entry|Entries]))
     end.
 
-ask(Entry, Others, NRem) ->
+ask(#entry{a=GoodA, o=OtherAns}=Entry, NRem) ->
     % choose 2 others (must not be duplicates)
     % print key and present options (in random order)
-    Other1 = choose(Others, [Entry]),
-    Other2 = choose(Others, [Entry, Other1]),
-    ask(Entry, Other1, Other2, NRem).
+    BadA1 = choose(OtherAns, [GoodA]),
+    BadA2 = choose(OtherAns, [GoodA, BadA1]),
+    ask(Entry, [BadA1, BadA2], NRem).
 
-ask(#entry{q=Q, a=GoodA}, #entry{a=Bad1A}, #entry{a=Bad2A}, NRem) ->
-    Options = shuffle([GoodA, Bad1A, Bad2A]),
+ask(#entry{q=Q, a=GoodA}, BadAnswers, NRem) ->
+    Options = shuffle([GoodA | BadAnswers]),
     case do_ask(Q, Options, NRem) of
         GoodA -> correct;
         _     -> io:format("Correct answer: ~s~n", [GoodA]),
                  faulty
     end.
-
-main(_Args) ->
-    random:seed(erlang:now()),
-    drill(entries(meaning, words())).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Utility functions
@@ -112,3 +142,33 @@ do_ask(Question, Answers, NRem) ->
             io:format("Just a number (1-~B), please!~n", [N]),
             do_ask(Question, Answers, NRem)
     end.
+
+%% Split a line in two at the longest piece of internal whitespace.
+split_blank(String) ->
+    %% Split into a list of chunks represented as 2- tuples {N, Str}
+    %% where N is number of whitespace chars followed by a string of
+    %% non-whitespace characters Str.
+    Chunks = split_chunks(string:strip(String), []),
+    LongestWS = lists:max([Len || {Len, _Str} <- Chunks]),
+    Pred = fun({Len, _Str}) -> Len < LongestWS end,
+    PreChunks = lists:takewhile(Pred, Chunks),
+    PostChunks = lists:dropwhile(Pred, Chunks),
+    {chunks_to_string(PreChunks), chunks_to_string(PostChunks)}.
+
+split_chunks([], Chunks)     -> lists:reverse(Chunks);
+split_chunks(String, Chunks) ->
+    PreWS = string:span(String, " \t"),
+    Chunk0 = string:substr(String, PreWS+1),
+    PostWS = string:cspan(Chunk0, " \t"),
+    Chunk = string:substr(Chunk0, 1, PostWS),
+    Rest = string:substr(Chunk0, PostWS+1),
+    split_chunks(Rest, [{PreWS, Chunk} | Chunks]).
+
+chunks_to_string(Chunks) ->
+    string:join([Str || {_N, Str} <- Chunks], " ").
+
+%% Tokenize a string containing comma-separated values. Return list of
+%% tokens with whitespace removed.
+tokenize_csv(String) ->
+    Toks = string:tokens(String, ","),
+    [string:strip(T) || T <- Toks].
