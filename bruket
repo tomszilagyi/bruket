@@ -4,6 +4,7 @@
 -mode(compile).
 
 -define(GENDER_LIST, ["en", "ett", "pl."]).
+-define(DRILL_LIST, [meaning, gender]).
 -define(INITIAL_WEIGHT, 1).
 
 -record(word, { type    :: noun | verb | adverb | adjective | other
@@ -25,7 +26,11 @@ main(_Args) ->
     io:setopts([{encoding, unicode}]),
     random:seed(erlang:now()),
     Words = words(),
-    DrillType = prompt("What to practice?", [meaning, gender]),
+    Drills0 = [{DType, entries(DType, Words)} || DType <- ?DRILL_LIST],
+    Drills = [{DType, length(Entries), Entries} || {DType, Entries} <- Drills0,
+                                                   Entries =/= []],
+    DrillNames = [{DType, drill_caption(DType, N)} || {DType, N, _} <- Drills],
+    {DrillType, _} = prompt("What to practice?", DrillNames),
     Entries = entries(DrillType, Words),
     drill(Entries).
 
@@ -72,10 +77,15 @@ parse_entry(Type, Forms, Trans) ->
 %% Drills
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+drill_caption(meaning, N) ->
+    io_lib:format("(~B)\tThe meaning of words", [N]);
+drill_caption(gender, N) ->
+    io_lib:format("(~B)\tGrammatical gender of nouns", [N]).
+
 entries(meaning, Words) ->
     [mk_entry(meaning, W, Words) || W <- Words];
 entries(gender, Words) ->
-    [mk_entry(gender, W, Words) || W <- Words, W#word.type =:= noun].
+    [mk_entry(gender, W, Words) || #word{type=noun} = W <- Words].
 
 %% Recognize the meaning of words
 mk_entry(meaning, #word{type=Type, forms=Forms, trans=Trans}, Words) ->
@@ -157,7 +167,9 @@ prompt(Question, Answers, NRem) ->
 do_prompt(Answers) ->
     N = length(Answers),
     NumberedAnswers = lists:zip(lists:seq(1, N), Answers),
-    lists:foreach(fun({Seq, Ans}) ->
+    lists:foreach(fun({Seq, {Prompt, Caption}}) ->
+                          io:format("  ~B: ~ts\t~ts~n", [Seq, Prompt, Caption]);
+                     ({Seq, Ans}) ->
                           io:format("  ~B: ~ts~n", [Seq, Ans])
                   end, NumberedAnswers),
     try
