@@ -1,6 +1,8 @@
 #!/usr/bin/env escript
 %% -*- erlang -*-
 
+-mode(compile).
+
 -define(GENDER_LIST, ["en", "ett", "pl."]).
 -define(INITIAL_WEIGHT, 1).
 
@@ -23,7 +25,8 @@ main(_Args) ->
     io:setopts([{encoding, unicode}]),
     random:seed(erlang:now()),
     Words = words(),
-    Entries = entries(meaning, Words) ++ entries(gender, Words),
+    DrillType = prompt("What to practice?", [meaning, gender]),
+    Entries = entries(DrillType, Words),
     drill(Entries).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -109,7 +112,7 @@ ask(#entry{q=Q, a=GoodA, all_a=AllAnswers}, NRem) ->
                   true  -> AllAnswers();
                   false -> AllAnswers
               end,
-    case do_ask(Q, Options, NRem) of
+    case prompt(Q, Options, NRem) of
         GoodA -> correct;
         _     -> io:format("Correct answer: ~s~n", [GoodA]),
                  faulty
@@ -143,20 +146,27 @@ choose(L, Exceptions) ->
 
 %% Present the user with a question and a list of answers and let them choose
 %% one of the answers. The chosen answer will be the return value.
-do_ask(Question, Answers, NRem) ->
-    io:format("~nQ.~B: ~s~n", [NRem, Question]),
+prompt(Question, Answers) ->
+    io:format("~n~ts~n", [Question]),
+    do_prompt(Answers).
+
+prompt(Question, Answers, NRem) ->
+    io:format("~nQ.~B: ~ts~n", [NRem, Question]),
+    do_prompt(Answers).
+
+do_prompt(Answers) ->
     N = length(Answers),
     NumberedAnswers = lists:zip(lists:seq(1, N), Answers),
     lists:foreach(fun({Seq, Ans}) ->
-                          io:format("  ~B: ~s~n", [Seq, Ans])
+                          io:format("  ~B: ~ts~n", [Seq, Ans])
                   end, NumberedAnswers),
     try
         [Ch,$\n] = io:get_line("> "),
         ChosenSeq = list_to_integer([Ch]),
         lists:nth(ChosenSeq, Answers)
     catch _:_ ->
-            io:format("Just a number (1-~B), please!~n", [N]),
-            do_ask(Question, Answers, NRem)
+            io:format("~nJust a number (1-~B), please!~n", [N]),
+            do_prompt(Answers)
     end.
 
 %% Split a line in two at the longest piece of internal whitespace.
