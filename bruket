@@ -124,7 +124,8 @@ ask(#entry{q=Q, a=GoodA, all_a=AllAnswers}, NRem) ->
               end,
     case prompt(Q, Options, NRem) of
         GoodA -> correct;
-        _     -> io:format("Correct answer: ~s~n", [GoodA]),
+        _     -> color(red, "Correct answer: "),
+                 color(white, "~ts~n", [GoodA]),
                  faulty
     end.
 
@@ -157,11 +158,12 @@ choose(L, Exceptions) ->
 %% Present the user with a question and a list of answers and let them choose
 %% one of the answers. The chosen answer will be the return value.
 prompt(Question, Answers) ->
-    io:format("~n~ts~n", [Question]),
+    color(white, "~n~ts~n", [Question]),
     do_prompt(Answers).
 
 prompt(Question, Answers, NRem) ->
-    io:format("~nQ.~B: ~ts~n", [NRem, Question]),
+    io:format("~nQ.~B: ", [NRem]),
+    color(white, "~ts~n", [Question]),
     do_prompt(Answers).
 
 do_prompt(Answers) ->
@@ -177,7 +179,7 @@ do_prompt(Answers) ->
         ChosenSeq = list_to_integer([Ch]),
         lists:nth(ChosenSeq, Answers)
     catch _:_ ->
-            io:format("~nJust a number (1-~B), please!~n", [N]),
+            color(red, "~nJust a number (1-~B), please!~n", [N]),
             do_prompt(Answers)
     end.
 
@@ -219,3 +221,23 @@ mk_choose_answers(GoodAnswer, AllAnswers) ->
             BadA2 = choose(AllAnswers, [GoodAnswer, BadA1]),
             shuffle([GoodAnswer, BadA1, BadA2])
     end.
+
+%% ANSI escape sequences for color support
+color(Color, Format) -> color(Color, Format, []).
+
+color(Color, Format, Args) ->
+    set_color(Color),
+    io:format(Format, Args),
+    set_color(none).
+
+set_color(none)    -> esc(0);
+set_color(red)     -> esc(1, 31);
+set_color(green)   -> esc(0, 32);
+set_color(yellow)  -> esc(0, 33);
+set_color(blue)    -> esc(0, 34);
+set_color(magenta) -> esc(0, 35);
+set_color(cyan)    -> esc(0, 36);
+set_color(white)   -> esc(1, 37).
+
+esc(N)    -> io:format("~c[0;~Bm", [27, N]).
+esc(N, M) -> io:format("~c[~B;~Bm", [27, N, M]).
