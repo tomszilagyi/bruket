@@ -7,12 +7,12 @@
 -define(DRILL_LIST, [meaning, gender]).
 -define(INITIAL_WEIGHT, 1).
 
--record(word, { type    :: noun | verb | adverb | adjective | other
-                %% type-dependent, eg. gender for nouns, declension
+-record(word, { class    :: noun | verb | adverb | adjective | other
+                %% class-dependent, eg. gender for nouns, declension
                 %% group for verbs, etc.
-              , subtype :: atom()
-              , forms   :: [string()] % forms to write the word
-              , trans   :: [string()] % translations
+              , subclass :: atom()
+              , forms    :: [string()] % forms to write the word
+              , trans    :: [string()] % translations
               }).
 
 -record(entry, { q     :: string()   % problem/question
@@ -45,8 +45,8 @@ words(FileList) ->
     lists:foldl(fun(Filename, Acc) -> parse(Filename, Acc) end, [], FileList).
 
 parse(Filename, AccIn) ->
-    [TypeStr | _] = string:tokens(Filename, "."),
-    Type = list_to_atom(TypeStr),
+    [ClassStr | _] = string:tokens(Filename, "."),
+    Class = list_to_atom(ClassStr),
     {ok, IoDev} = file:open(Filename, [read, binary, {encoding, utf8}]),
     Bin = io:get_chars(IoDev, "", filelib:file_size(Filename)),
     file:close(IoDev),
@@ -54,24 +54,24 @@ parse(Filename, AccIn) ->
     Lines = string:tokens(Chars, "\n"),
     NumberedLines = lists:zip(lists:seq(1, length(Lines)), Lines),
     lists:foldl(fun({Num, Line}, Acc) ->
-                        try [parse_line(Type, Line) | Acc]
+                        try [parse_line(Class, Line) | Acc]
                         catch _:_ ->
                             io:format("~p: skipping line ~B: ~p~n",
-                                      [Type, Num, Line]),
+                                      [Class, Num, Line]),
                             Acc
                         end
                 end,
                 AccIn, NumberedLines).
 
-parse_line(Type, Line) ->
+parse_line(Class, Line) ->
     %% Largest chunk of whitespace separates forms from translations
     {Forms, Trans} = split_blank(Line),
-    parse_entry(Type, tokenize_csv(Forms), tokenize_csv(Trans)).
+    parse_entry(Class, tokenize_csv(Forms), tokenize_csv(Trans)).
 
-%% This can be split into multiple clauses based on Type.
-%% Eg. for nouns, 2nd form contains gender (subtype) by convention.
-parse_entry(Type, Forms, Trans) ->
-    #word{type=Type, forms=Forms, trans=Trans}.
+%% This can be split into multiple clauses based on Class.
+%% Eg. for nouns, 2nd form contains gender (subclass) by convention.
+parse_entry(Class, Forms, Trans) ->
+    #word{class=Class, forms=Forms, trans=Trans}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Drills
@@ -85,13 +85,13 @@ drill_caption(gender, N) ->
 entries(meaning, Words) ->
     [mk_entry(meaning, W, Words) || W <- Words];
 entries(gender, Words) ->
-    [mk_entry(gender, W, Words) || #word{type=noun} = W <- Words].
+    [mk_entry(gender, W, Words) || #word{class=noun} = W <- Words].
 
 %% Recognize the meaning of words
-mk_entry(meaning, #word{type=Type, forms=Forms, trans=Trans}, Words) ->
+mk_entry(meaning, #word{class=Class, forms=Forms, trans=Trans}, Words) ->
     GoodAnswer = string:join(Trans, ", "),
     AllAnswers = [string:join(Wo#word.trans, ", ") ||
-                     Wo <- Words, Wo#word.type =:= Type],
+                     Wo <- Words, Wo#word.class =:= Class],
     #entry{q=string:join(Forms, ", "),
            a=GoodAnswer,
            all_a=mk_choose_answers(GoodAnswer, AllAnswers)};
