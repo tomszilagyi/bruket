@@ -1,3 +1,7 @@
+Hin Håle, ett                           the devil / az ördög
+Johannesört, en                         St John's wort / orbáncfű, (rég) Szent János virága
+Medelhavet, ett                         Mediterranean Sea / Földközi-tenger
+Västkusten, en                          the West Coast / Nyugati tengerpart
 [bond]gård, en                          farm, (country) estate / farm, birtok, major, tanya, parasztgazdaság
 [motor]huv, en                          hood / kupak, sapka, [motorház]fedél, fedő
 abborre, en                             perch / sügér, csapósügér
@@ -54,6 +58,7 @@ blixt, en                               lightning, flashlight / villám, vaku
 block, ett                              block /  blokk (jegyzettömb)
 bly, ett                                lead / ólom
 blåbär, ett                             blueberry / (fekete) áfonya
+bock, en                                goat / bakkecske
 bogseringsrep, ett                      towing rope / vontatókötél
 bok, en                                 book / könyv
 boll, en                                ball / labda, golyó
@@ -76,6 +81,7 @@ byxben, ett                             trouser leg, leg of trouser / nadrágsz�
 bägare, en                              goblet, cup, mug / pohár, bögre
 bänk, en                                bench / pad
 bär, ett                                berry / bogyó
+böckling, en                            buckling, smoked Baltic herring / füstölt hering
 bön, en                                 appeal, worship, prayer, request, plea / ima, imádság, kérés, kérelem, könyörgés, esedezés
 böna, en                                bean / bab
 böter, pl.                              penalties, fines / bírságok, (pénz)büntetések
@@ -89,6 +95,7 @@ deckare, en                             detective novel, whodunit, sleuth / dete
 deltagare, en                           participant / résztvevő
 demokrati, en                           democracy / demokrácia
 dikt, en                                fabrication, poem, fiction, poetry / kitalálmány, vers, költemény, költés
+dillkronor, pl.                         dill / kapor
 diskbänk, en                            kitchen-sink / mosogató
 djävul, en                              devil, fiend / ördög
 docka, en                               puppet, dummy, doll / (kirakati v. játék)baba, bábu
@@ -160,6 +167,7 @@ födelsedag, en                          birthday / születésnap
 följd, en                               result, consequence, series, sequence, succession / következmény, sor, sorrend, sorozat, folyam
 följeslagare, en                        companion, follower / kísérő
 fönster, ett                            window / ablak
+förberedelse, en                        preparation / előkészület
 förbindelse, en                         relations, connection / összeköttetés, kapcsolat, csatlakozás
 förbund, ett                            association, union, society / szövetség
 förekomst, en                           occurrence, incidence / előfordulás, létezés, meglét, lelőhely
@@ -208,7 +216,9 @@ guldsmed, en                            goldsmith / aranyműves
 gurka, en                               cucumber / uborka
 gädda, en                               pike / csuka
 haka, en                                chin / áll
+haklapp, en                             bib / előke
 hallon, ett                             raspberry / málna
+halm, en                                straw / szalma
 halsband, ett                           necklace / nyaklánc
 hammare, en                             hammer / kalapács
 hand, en                                hand / kéz
@@ -226,7 +236,6 @@ hembiträde, ett                         maid / szobalány, háztartási alkalma
 heminredning, en                        home furnishing / lakberendezés
 hemtjänst, en                           home-service / házigondozás, otthoni segítőszolgálat (időseknek)
 himmel, en                              sky, heaven / ég, menny, mennyország
-Hin Håle, ett                           the devil / az ördög
 hingst, en                              stallion / csődör, mén
 hiss, en                                lift, elevator / lift, felvonó
 hjul, ett                               wheel / kerék
@@ -263,8 +272,8 @@ inredning, en                           equipment, furnishing / berendezés, bú
 inriktning, en                          alignment, concentration, direction / beállítódás, irányzat
 insjö, en                               lake / tó
 jacka, en                               jacket / kabát, zeke, ~blézer
-Johannesört, en                         St John's wort / orbáncfű, (rég) Szent János virága
 jordbruk, ett                           agriculture, farm / mezőgazdaság, gazdaság
+julgranssaker, pl.                      Christmas tree decorations / karácsonyfadíszek
 julklapp, en                            Christmas present (inf.) / karácsonyi ajándék
 jämlikhet, en                           equality / egyenlőség
 jämställdhet, en                        gender equality, equal opportunities / egyenjogúság. egyenlő esélyek
@@ -273,6 +282,7 @@ jätte, en                               giant / óriás
 kalabalik, en                           uproar / csetepaté, verekedés, tumultus
 kalv, en                                calf / borjú (ált.: állat kölyke)
 kamera, en                              camera / fényképezőgép
+kamin, en                               stove, heater / kályha
 kammare, en                             chamber (of parliament) / kamara, (parlamenti) ház
 kamp, en                                struggle, fight / harc, küzdelem, verseny, tusa
 kamrat, en                              friend, comrade, companion
@@ -314,6 +324,8 @@ kristendom, en                          Christianity / kereszténység
 kritiker, en                            critic / kritikus, bíráló, recenzens
 kropp, en                               body, trunk / test, törzs
 krydda, en                              spice / fűszer
+kräfta, en                              crayfish, cancer / rák (betegség is)
+kräftskiva, en                          crayfish party
 kudde, en                               pillow, cushion / párna, vánkos
 kuggfråga, en                           trick question, teaser / fogas/beugratós kérdés
 kummin, en                              caraway, cumin / kömény
@@ -378,6 +390,7 @@ lök, en                                 onion / hagyma
 lön, en                                 wage, salary / munkabér, munkadíj, fizetés
 löpande band, ett                       conveyor belt / futószalag
 löpare, en                              runner / futó
+löv, ett                                leaf /(fa)levél
 macka, en                               sandwich [inf] / szendvics, vajas kenyér
 mage, en                                stomach / gyomor
 majestät, ett                           majesty / felség (Ers majestät: Your Majesty / Felséged)
@@ -389,7 +402,6 @@ maskros, en                             dandelion / pitypang
 matsked, en                             tablespoon / evőkanál
 matsäck, en                             packed lunch / útravaló, tarisznya, kenyérzsák
 medborgare, en                          citizen / polgár
-Medelhavet, ett                         Mediterranean Sea / Földközi-tenger
 medkänsla, en                           sympathy / rokonszenv, együttérzés, szimpátia
 medlem, en                              member, membership / tag, tagság
 mejeri, ett                             dairy / tejtermék
@@ -466,6 +478,7 @@ parti, ett                              party / párt
 pass, ett                               passport / útlevél
 penna, en                               pen / toll
 penninglott, en                         lottery ticket / lottó(szelvény)
+pensel, en                              brush / ecset, pamacs
 pension, en                             pension / nyugdíj
 pensionat, ett                          boarding house / penzió, nyugdíjasklub, napközi
 pensionär, en                           pensioner / nyugdíjas
@@ -510,16 +523,19 @@ raps, en                                rape / repce
 rast, en                                pause, break / szünet, pihenő
 ratt, en                                steering wheel / kormánykerék
 redovisning, en                         account(s), accountancy / könyvelés
+redskap, ett                            tool (also fig.) / szerszám, eszköz, felszerelés
 regering, en                            government / kormány
 reningsverk, ett                        sewage treatment works / (szennyvíz)tisztító
 replik, en                              reply, retort, replica / replika, visszavágás, másodpéldány
 reserv, en                              reserve / tartalék
 rest, en                                rest, remainder / maradék, maradvány
 riksdag, en                             Parliament / parlament
+ris, ett                                sprigs, twigs / gallyak
 rishög, en                              pile of twigs, brushwood, fig: jalopy / rőzsehalmaz, -rakás, átv: ócska, rozzant autó
 rop, ett                                shout, call, cry / kiáltás
 rotmos, ett                             mashed turnips / karórépapüré
 rulltrappa, en                          escalator / mozgólépcső
+rusdryck, en                            alcoholic beverage, intoxicant / szeszesital
 rygg, en                                back / hát [dolgok hátsó oldala is]
 räkor, pl.                              shrimp(s) / apró tengeri rákok
 rätt, en                                course, dish / fogás
@@ -544,6 +560,7 @@ sed, en                                 custom, usage, practice / szokás, hagyo
 sediment, ett                           sediment / üledék
 sekel, ett                              century / évszázad
 semester, en                            holiday, vacation / szabadság
+semla, en                               semla, cream bun / zsemle, fánk
 senap, en                               mustard / mustár
 servicehus, ett                         [block of] service flats / idősek otthona
 siames, en                              siamese cat / sziámi macska
@@ -563,6 +580,7 @@ skjorta, en                             shirt / (férfi)ing
 skjuts, en                              shove, push, lift / (el)szállítás, fuvarozás, vitel
 sko, en                                 shoe / cipő
 skoj, ett                               fun, joke, mischief, jest, swindle, fraud, racket / csalás, szélhámosság, svindli, humbug, móka, tréfa, csíny
+skorsten, en                            chimney, funnel, smokestack / kémény, kürtő
 skruvmejsel, en                         screwdriver / csavarhúzó
 skräck, en                              terror, horror, dread, fright / ijedtség, rémület, félelem
 skull, en                               sake
@@ -574,6 +592,7 @@ skärtorsdag, en                         Maundy Thursday / nagycsütörtök
 skådespelare, en                        actor/actress
 skål, en                                bowl, basin / csésze, tálka
 slag, ett                               category, type, kind, class, species, sort / fajta, -féle, nem / battle, slap, stroke, knock, hit, punch, blow / ütés, csapás, vágás, verés, lüktetés, csata
+slant, en                               coin / pénzdarab, aprópénz, pár fillér
 slips, en                               tie / nyakkendő
 slott, ett                              manor house, castle, palace / kastély, palota, (királyi) vár
 släkt, en                               family, relatives, relations / rokonság
@@ -598,6 +617,7 @@ stam, en                                root, trunk / tő, gyökér [szótő is]
 standard, en                            standard / szabvány, mérték, norma, fok, nívó, standard, színvonal
 stativ, ett                             tripod/stand / (fotó)állvány
 staty, en                               statue / szobor
+stearinljus, ett                        candle / sztearin gyertya
 steg, ett                               step (also fig.) / lépés (átv. is), lábnyom, lépcsőfok
 stereo, en                              stereo / magnó, hifi-torony
 stig, en                                path / ösvény, gyalogút
@@ -711,6 +731,7 @@ uppförsbacke, en                        uphill slope / emelkedő
 uppgift, en                             task, duty / feladat
 uppmärksamhet, en                       attention / figyelem
 uppsats, en                             article, paper, essay / dolgozat, cikk, tanulmány
+uppståndelse, en                        resurrection, stir / feltámadás, izgalom, nyugtalanság
 ursprung, ett                           origin / eredet
 urval, ett                              choice, selection, assortment, range, variety / választék, válogatás, kiválasztás
 utbildning, en                          education, training / kiképzés, kiművelés, iskolázás
@@ -748,6 +769,7 @@ vindrutetorkare, en                     wiper / ablaktörlő
 vinge, en                               wing / szárny, vitorla
 vishet, en                              wisdom / bölcsesség
 viskning, en                            whisper (fig. gossip) / suttogás, susogás, sugdolózás
+visp, en                                whisk, beater / habverő
 vispgrädde, en                          whipped cream / tejszínhab, habtejszín
 vitlök, en                              garlic / fokhagyma
 vrå, en                                 corner / sarok, szöglet, zug, rejtett v. félreeső hely
@@ -766,7 +788,6 @@ värk, en                                ache / fájdalom, fájás
 värnplikt, en                           compulsory military service / sorkatonai szolgálat
 väska, en                               bag / táska
 väst, en                                vest / mellény
-Västkusten, en                          the West Coast / Nyugati tengerpart
 våffla, en                              waffle / (recés) ostya, vafli
 våldtäkt, en                            rape, violence / (nemi) erőszak
 våning, en                              flat, floor / lakás, emelet
@@ -774,6 +795,7 @@ vård, en                                care [of weak or ill people] / gondozá
 yta, en                                 space, area, surface
 ytterdörr, en                           front door / bejárati ajtó
 yttrande, ett                           statement / kijelentés, nyilatkozat, vélemény
+Östersjökusten, en                      Coast of Baltic Sea / Balti-tenger partja
 ägande, ett                             ownership, owning / tulajdon, saját
 äganderätt, en                          right of possession / tulajdonjog
 ägg, ett                                egg / tojás
@@ -797,6 +819,7 @@ yttrande, ett                           statement / kijelentés, nyilatkozat, v�
 åker, en                                arable land, field / szántóföld, mező
 åkermark, en                            arable land, field / szántóföld
 ål, en                                  eel / angolna
+ångest, en                              anxiety, fear, dread / félelem, rettegés, szorongás, aggodalom
 årgång, en                              vintage, year's issue / évjárat, évfolyam
 åsikt, en                               opinion, view / nézet, vélemény
 ö, en                                   island / sziget
@@ -807,6 +830,5 @@ yttrande, ett                           statement / kijelentés, nyilatkozat, v�
 öra, ett                                ear / fül
 örhänge, ett                            earring / fülbevaló
 öring, en                               trout, salmon trout / lazacpisztráng, tengeri pisztráng
-Östersjökusten, en                      Coast of Baltic Sea / Balti-tenger partja
 övergödning, en                         over-nourishment, over-fertilization / túltápláltság, túltrágyázottság
 överraskning, en                        surprise / meglepetés

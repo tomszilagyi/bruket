@@ -78,6 +78,7 @@ falla, föll, fallit                     fall / (el/le)esik, (le)hull, (le)zuhan
 fara, for, farit                        go / utazik, (el)megy, halad
 fastna                                  get caught / (oda)tapad, hozzáragad, (meg/fenn/bele/el)akad, megreked
 fatta                                   catch, grasp, understand / felfog, megért, megfog
+fattas                                  be missing (short, lacking) / hiányzik, vminek híján v. szűkében van
 fira                                    celebrate / (meg)ünnepel/tart/ül
 fly, flydde, flytt                      flee / elmenekül, elfut, megfutamodik, tovatűnik, elröppen
 flyta                                   flow / folyik
@@ -102,6 +103,7 @@ föreslå                                 suggest, propose / javasol, indítván
 föreställa                              depict, portray, represent / ábrázol, bemutat
 förhandla                               negotiate, bargain / tárgyal, tanácskozik, megtárgyal, megvitat
 förklara                                explain, declare, state / megmagyaráz, -világít, kijelent, kinyilvánít
+förknippa                               associate / összekapcsol, összefűz
 förkorta                                shorten, abbreviate / (le)rövidít, megkurtít, egyszerűsít
 förlora                                 lose, give away, go down / elvesz(í)t, vesz(í)t, veszteséget szenved
 förminska                               diminish, miniaturize / kicsinyít, kisebbít, csökkent, leszállít
@@ -241,6 +243,9 @@ redovisa                                show, present / bemutat
 resa                                    travel, raise, put up, bring up / utazik, elutazik, (fel)emel, -állít, felkel
 reta                                    irritate, tease / irritál, zavar, bosszant
 rida, rider, red, ridit                 ride / lovagol
+rita                                    draw, design / rajzol, vázol
+rulla                                   roll / gurít, gördít, görget
+rulla på                                trill / trillázik
 rusa                                    rush, dash / rohan, száguld, robog, iparkodik, siet
 rycka                                   pull, snatch, tug / ránt, tép, szakít, meghúz
 rycka in                                join up [for military service] / bevonul [seregbe]
@@ -336,6 +341,7 @@ tala                                    speak (language) / beszél (nyelvet)
 tanka                                   fill [with petrol] / tankol [autót]
 tappa                                   drop, lose / le/elejt, elveszít
 tiga                                    keep silent / hallgat, csendben van
+tigga                                   beg / koldul, kéreget, kunyerál
 tillföra                                provide, supply / (oda)vezet, odavisz, -hoz, szállít, ellát, ad
 tillhöra                                belong / tartozik
 tillverka                               manufacture
