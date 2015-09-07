@@ -30,9 +30,18 @@ main(_Args) ->
     Drills = [{DType, length(Entries), Entries} || {DType, Entries} <- Drills0,
                                                    Entries =/= []],
     DrillNames = [{DType, drill_caption(DType, N)} || {DType, N, _} <- Drills],
-    {DrillType, _} = prompt("What to practice?", DrillNames),
-    Entries = entries(DrillType, Words),
-    drill(Entries).
+    case DrillNames of
+        [] -> color(red, "No word files could be loaded for practice!~n");
+        _  -> {DrillType, _} =
+                  case DrillNames of
+                      [DType] -> %% Only one drill type -- start it
+                          DType;
+                      _DTypes -> %% Multiple types available -- prompt
+                          prompt("What to practice?", DrillNames)
+                  end,
+              Entries = entries(DrillType, Words),
+              drill(Entries)
+    end.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Parser
