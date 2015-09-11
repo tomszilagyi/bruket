@@ -171,6 +171,7 @@ jämt                                    always / mindig, folyton, állandóan, 
 klar                                    clear / tiszta, derült, felhőtlen, rendezett
 knapp                                   scarce, meagre / szűkös, szegényes, csekély, korlátozott
 knappt                                  slightly less than, hardly / alig, alighogy, nehezen, nem igen
+knasig                                  nuts, daft / őrült, bolond
 kommersiell                             commercial / kereskedelmi, kommerciális
 konstig                                 strange, curious, funny / különös, furcsa, szokatlan
 konstnärlig                             artistic / művészi

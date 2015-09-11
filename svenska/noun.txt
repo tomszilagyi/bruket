@@ -86,6 +86,7 @@ bön, en                                 appeal, worship, prayer, request, plea 
 böna, en                                bean / bab
 böter, pl.                              penalties, fines / bírságok, (pénz)büntetések
 dagis, ett                              day nursery, kindergarten / óvoda
+damm, en                                pool, pond, dam / (kis) tó, zsiliptó, víztároló, gát, töltés
 dammtuss, en                            dust bunny / porcica
 dass, ett                               privy, outhouse, john, loo [inf] / budi, klozett
 datautrustning, en                      computer equipment, hardware / hardver
@@ -280,6 +281,7 @@ jämställdhet, en                        gender equality, equal opportunities /
 järv, en                                wolverine / torkos borz, rozsomák
 jätte, en                               giant / óriás
 kalabalik, en                           uproar / csetepaté, verekedés, tumultus
+kalas, ett                              party (also fig.) / vendégség, lakoma, mulatság
 kalv, en                                calf / borjú (ált.: állat kölyke)
 kamera, en                              camera / fényképezőgép
 kamin, en                               stove, heater / kályha
@@ -303,6 +305,7 @@ klororganiska förening, en              organic chlorine compound / szerves kl�
 klädsel, en                             dress, clothing / öltözet, ruha
 klänning, en                            dress, gown / (női) ruha, köntös
 knapphål, ett                           buttonhole / gomblyuk
+knytkalas, ett                          potluck supper / piknik
 knä, ett                                knee / térd
 knäckebröd, ett                         crispbread / ropogós kenyér
 ko, en                                  cow / tehén
@@ -408,6 +411,7 @@ mejeri, ett                             dairy / tejtermék
 mellanmål, ett                          snack / uzsonna, tízórai, falatozás
 mellanrum, ett                          space, interval / térköz, távolság, időköz, szünet
 mes, en                                 titmouse / cinke, cinege
+metspö, ett                             fishing rod / horgászbot
 midja, en                               waist / derék
 midsommar, en                           midsummer / nyárközép, nyári napforduló (jún.21)
 militärtjänstgöring, en                 military service / sorkatonai szolgálat
