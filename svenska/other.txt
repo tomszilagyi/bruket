@@ -34,6 +34,7 @@ deprimerad                              depressed / lehangolt, levert
 dess  [ju förr dess bättre]             the  [the sooner the better]
 dessförinnan                            beforehand, previously, before then / azelőtt, annak előtte, addig
 dessutom                                besides, moreover, in addition, furthermore
+detsamma                                the same / ugyanez(t), ugyanaz(t)
 dimmig                                  foggy / ködös
 dit                                     that way, there, in that direction / oda, arra
 dock                                    yet, nevertheless, still, however / mégis, mindazonáltal, ámde, mégiscsak
@@ -388,4 +389,5 @@ ytterligare                             further, additional / további, újabb, 
 överallt                                everywhere / mindenhol
 överhuvudtaget                          on the whole, at all / általában, egészében, egyáltalán
 överraskande                            surprisingly / meglepően, meglepő módon
+övertygande                             convincing / meggyőző
 övrig                                   other, remaining / megmaradó, még meglévő, hátramaradó, többi, egyéb
