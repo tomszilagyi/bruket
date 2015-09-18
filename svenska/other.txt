@@ -4,6 +4,7 @@ allmän                                  common, general
 alltså                                  in other words, that is to say
 allvarlig                               serious, grave, solemn / komoly, szigorú, veszélyes, súlyos
 annars                                  otherwise, else / egyébként, máskülönben
+antingen                                whether, either / vagy-vagy, akár-akár
 arbetsam                                hard-working / keményen dolgozó
 arg                                     enraged, mad, angry / mérges, dühös, haragos
 artig                                   courteous, polite / udvarias, előzékeny, tisztelettudó
@@ -117,6 +118,7 @@ giftig                                  poisonous / mérges, mérgezett, mérgez
 gjord [av ngn]                          made [of sg] / megcsinált, -tett, elkészített, elintézett
 glad                                    pleased, happy / elégedett, boldog
 glamorös                                glamorous / elbűvölő
+glansig                                 glossy / fényes, fénylő, ragyogó
 glömsk                                  forgetful / feledékeny
 grund                                   shallow / sekély, nem mély, alacsony, sekélyes, felületes
 gullig                                  cute, sweet, dear / édes, kedves, aranyos

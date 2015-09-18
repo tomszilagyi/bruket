@@ -17,6 +17,7 @@ andelslägenhet, en                      condominium (flat, apartment) / (társa
 anhängare, en                           follower, supporter / követő, támogató
 aning, en                               suspicion, idea, presentiment, notion / sejtés, sejtelem, előérzet, elképzelés, fogalom
 anka, en                                duck / kacsa
+anledning, en                           cause, reason, ground / alap, alkalom, ok, indítóok
 anläggning, en                          construction, building, complex, equipment / létesítmény, telep, berendezés, felszerelés
 annons, en                              advert, advertisement, ad / hirdetés, hirdetmény
 ansjovis, en                            Anchovy, anchovies / szardella, sprotni
@@ -135,6 +136,7 @@ fjäril, en                              butterfly / lepke, pillangó
 flinga, en                              flake, cornflakes / (kukorica)pehely
 fluga, en                               bow tie, fly, fad, craze / csokornyakkendő, légy, bolondéria, hóbort, bogár
 fläck, en                               spot, bruise, mark / folt, szégyenfolt, jegy
+fläkt, en                               breeze, fan / fuvallat, szellő, ventillátor, légfúvó
 fläsk, ett                              pork / disznóhús
 fläskkotlett, en                        porkchop / sertésszelet
 flöjt, en                               flute / fuvola
@@ -704,6 +706,7 @@ totalförsvar, ett                       overall defence
 totalförsvarsplikt, en                  overall defence duty / általános védelmi szolgálat
 trafikförsäkring, en                    3rd party (liability) insurance / kötelező felelősségbiztosítás (autó)
 trakt, en                               parts, region / vidék, tájék, környék
+trasa, en                               rag, cloth / rongy, konyhai ruhadarab
 troll, ett                              troll / manó, kobold, rém, mumus
 trombon, en                             trombone / harsona
 trottoar, en                            pavement / járda
