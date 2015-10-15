@@ -4,6 +4,7 @@ allmän                                  common, general
 alltså                                  in other words, that is to say
 allvarlig                               serious, grave, solemn / komoly, szigorú, veszélyes, súlyos
 annars                                  otherwise, else / egyébként, máskülönben
+antingen                                whether, either / vagy-vagy, akár-akár
 arbetsam                                hard-working / keményen dolgozó
 arg                                     enraged, mad, angry / mérges, dühös, haragos
 artig                                   courteous, polite / udvarias, előzékeny, tisztelettudó
@@ -34,6 +35,7 @@ deprimerad                              depressed / lehangolt, levert
 dess  [ju förr dess bättre]             the  [the sooner the better]
 dessförinnan                            beforehand, previously, before then / azelőtt, annak előtte, addig
 dessutom                                besides, moreover, in addition, furthermore
+detsamma                                the same / ugyanez(t), ugyanaz(t)
 dimmig                                  foggy / ködös
 dit                                     that way, there, in that direction / oda, arra
 dock                                    yet, nevertheless, still, however / mégis, mindazonáltal, ámde, mégiscsak
@@ -116,6 +118,7 @@ giftig                                  poisonous / mérges, mérgezett, mérgez
 gjord [av ngn]                          made [of sg] / megcsinált, -tett, elkészített, elintézett
 glad                                    pleased, happy / elégedett, boldog
 glamorös                                glamorous / elbűvölő
+glansig                                 glossy / fényes, fénylő, ragyogó
 glömsk                                  forgetful / feledékeny
 grund                                   shallow / sekély, nem mély, alacsony, sekélyes, felületes
 gullig                                  cute, sweet, dear / édes, kedves, aranyos
@@ -171,6 +174,7 @@ jämt                                    always / mindig, folyton, állandóan, 
 klar                                    clear / tiszta, derült, felhőtlen, rendezett
 knapp                                   scarce, meagre / szűkös, szegényes, csekély, korlátozott
 knappt                                  slightly less than, hardly / alig, alighogy, nehezen, nem igen
+knasig                                  nuts, daft / őrült, bolond
 kommersiell                             commercial / kereskedelmi, kommerciális
 konstig                                 strange, curious, funny / különös, furcsa, szokatlan
 konstnärlig                             artistic / művészi
@@ -387,4 +391,5 @@ ytterligare                             further, additional / további, újabb, 
 överallt                                everywhere / mindenhol
 överhuvudtaget                          on the whole, at all / általában, egészében, egyáltalán
 överraskande                            surprisingly / meglepően, meglepő módon
+övertygande                             convincing / meggyőző
 övrig                                   other, remaining / megmaradó, még meglévő, hátramaradó, többi, egyéb

@@ -35,6 +35,7 @@ bilda                                   establish, found, form, constitute / ké
 bjuda                                   invite, offer, ask / meghív, kínál, ad
 bjuda på middag                         invite to dinner / meghív vacsorára
 blanda                                  blend, mix, mingle / (össze)kever, vegyít, cserél; ~ ihop: össze/elkever, összecserél
+blanda ihop                             mistake, mix up / össze- v. elkever, összecserél
 bli av med                              lose, dispose of / megszabadul, megmenekül vmitől, túlad vmin
 bliva, blir, blev, blivit               become, get, be / [vmivé] lesz, válik
 blixtra                                 lighten, flash / villámlik, villog, szikrázik, szikrát hány
@@ -70,6 +71,7 @@ dundra                                  rumble / (menny)dörög, dübörög, har
 dunka                                   throb, pound / üt, ver, dobog, dörömböl, zörget
 dunka ngn i ryggen                      pound sy on the back / megveregeti a vállát
 dyka, dök, dykt                         dive / lebukik, le- v. alámerül, lecsap
+dyka upp                                show up, turn up, emerge / felmerül, felbukkan, előbukkan
 efterträda                              succeed / követ, helyébe lép (utódként)
 erbjuda                                 offer / (fel)ajánl, kínál, mutat, nyújt, biztosít
 ersätta                                 compensate, replace, substitute / pótol, kárpótol, helyettesít
@@ -139,6 +141,8 @@ heta, heter, hette                      be called/named / hívják, nevezik vkin
 hinna, hann, hunnit                     manage, have time, reach, advance / elér, (el)jut, halad, elkészül, ráér, van ideje
 hitta                                   find, come across / (meg)talál, rátalál, eligazodik
 hitta på                                make up, invent, think of / kitalál, kigondol, kieszel, kohol
+hjälpa till                             assist, make oneself useful, lend a hand / segít, kisegít, közreműködik
+hjälpas åt                              pull together / együttműködik
 hoa, hoande                             hoot (owl) / huhog (bagoly)
 hoppa jämfota                           jump with both legs / páros lábbal ugrik
 hoppa över                              omit, leave out / kihagy, elhagy
@@ -238,6 +242,7 @@ påminna                                 remind, resemble / emlékeztet, eszébe
 påstå                                   say, state / állít, kijelent
 raka sig                                shave / (meg)borotválkozik
 ramla                                   fall / (le)esik, (le)zuhan, összeomlik, (átv) meghiúsul
+ramla omkull                            fall down / hanyatt esik, elesik
 rapa                                    belch, burp / böfög
 redovisa                                show, present / bemutat
 resa                                    travel, raise, put up, bring up / utazik, elutazik, (fel)emel, -állít, felkel
@@ -290,6 +295,7 @@ sluta                                   stop, finish / abbahagy, lezár
 släcka                                  extinguish, put out, slake, quench, turn/switch off / (el/ki)olt, kikapcsol, csillapít
 släppa                                  release, leave hold of, let go / elenged, elereszt, elejt, lemond, békén hagy
 slå, slog, slagit                       hit, beat, knock, strike, smite / üt, ver, csap, önt, tölt, dob, vet, rúg
+slå ut                                  bowl out, bud, burst / kiüt, kiver, kicsap, kiönt, kihajt, kifakad, (átv) végződik, sikerül
 slåss, slogs, slagits                   fight / verekedik, verekszik, küzd, harcol
 slösa                                   lavish, squander, waste / (el)pazarol, (el)tékozol, (el)fecsérel, költekezik, herdál, elpocsékol, elveszteget
 smälta                                  melt, smelt, dissolve, fuse / meg-, fel-, kiolvaszt, megemészt, lenyel, elvisel, megemésztődik, összeolvad

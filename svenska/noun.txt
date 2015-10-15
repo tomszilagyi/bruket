@@ -17,6 +17,7 @@ andelslägenhet, en                      condominium (flat, apartment) / (társa
 anhängare, en                           follower, supporter / követő, támogató
 aning, en                               suspicion, idea, presentiment, notion / sejtés, sejtelem, előérzet, elképzelés, fogalom
 anka, en                                duck / kacsa
+anledning, en                           cause, reason, ground / alap, alkalom, ok, indítóok
 anläggning, en                          construction, building, complex, equipment / létesítmény, telep, berendezés, felszerelés
 annons, en                              advert, advertisement, ad / hirdetés, hirdetmény
 ansjovis, en                            Anchovy, anchovies / szardella, sprotni
@@ -86,6 +87,7 @@ bön, en                                 appeal, worship, prayer, request, plea 
 böna, en                                bean / bab
 böter, pl.                              penalties, fines / bírságok, (pénz)büntetések
 dagis, ett                              day nursery, kindergarten / óvoda
+damm, en                                pool, pond, dam / (kis) tó, zsiliptó, víztároló, gát, töltés
 dammtuss, en                            dust bunny / porcica
 dass, ett                               privy, outhouse, john, loo [inf] / budi, klozett
 datautrustning, en                      computer equipment, hardware / hardver
@@ -134,6 +136,7 @@ fjäril, en                              butterfly / lepke, pillangó
 flinga, en                              flake, cornflakes / (kukorica)pehely
 fluga, en                               bow tie, fly, fad, craze / csokornyakkendő, légy, bolondéria, hóbort, bogár
 fläck, en                               spot, bruise, mark / folt, szégyenfolt, jegy
+fläkt, en                               breeze, fan / fuvallat, szellő, ventillátor, légfúvó
 fläsk, ett                              pork / disznóhús
 fläskkotlett, en                        porkchop / sertésszelet
 flöjt, en                               flute / fuvola
@@ -280,6 +283,7 @@ jämställdhet, en                        gender equality, equal opportunities /
 järv, en                                wolverine / torkos borz, rozsomák
 jätte, en                               giant / óriás
 kalabalik, en                           uproar / csetepaté, verekedés, tumultus
+kalas, ett                              party (also fig.) / vendégség, lakoma, mulatság
 kalv, en                                calf / borjú (ált.: állat kölyke)
 kamera, en                              camera / fényképezőgép
 kamin, en                               stove, heater / kályha
@@ -303,6 +307,7 @@ klororganiska förening, en              organic chlorine compound / szerves kl�
 klädsel, en                             dress, clothing / öltözet, ruha
 klänning, en                            dress, gown / (női) ruha, köntös
 knapphål, ett                           buttonhole / gomblyuk
+knytkalas, ett                          potluck supper / piknik
 knä, ett                                knee / térd
 knäckebröd, ett                         crispbread / ropogós kenyér
 ko, en                                  cow / tehén
@@ -408,6 +413,7 @@ mejeri, ett                             dairy / tejtermék
 mellanmål, ett                          snack / uzsonna, tízórai, falatozás
 mellanrum, ett                          space, interval / térköz, távolság, időköz, szünet
 mes, en                                 titmouse / cinke, cinege
+metspö, ett                             fishing rod / horgászbot
 midja, en                               waist / derék
 midsommar, en                           midsummer / nyárközép, nyári napforduló (jún.21)
 militärtjänstgöring, en                 military service / sorkatonai szolgálat
@@ -442,6 +448,7 @@ nederlag, ett                           defeat, beating / vereség, csataveszté
 nedförsbacke, en                        downhill slope, descent / lejtő
 nejlika, en                             clove, carnation / szegfű
 njure, en                               kidney / vese
+norrsken, ett                           northern light / északi fény
 nubbe, en                               snaps / snapsz, rövidital, pálinka
 nubbevisa, en                           drinking song / ivás előtti dalocska
 nyckel, en                              key / kulcs
@@ -699,6 +706,7 @@ totalförsvar, ett                       overall defence
 totalförsvarsplikt, en                  overall defence duty / általános védelmi szolgálat
 trafikförsäkring, en                    3rd party (liability) insurance / kötelező felelősségbiztosítás (autó)
 trakt, en                               parts, region / vidék, tájék, környék
+trasa, en                               rag, cloth / rongy, konyhai ruhadarab
 troll, ett                              troll / manó, kobold, rém, mumus
 trombon, en                             trombone / harsona
 trottoar, en                            pavement / járda
