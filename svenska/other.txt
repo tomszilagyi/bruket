@@ -43,6 +43,7 @@ dryg                                    ample, more than, over, just over / bős
 drygt                                   amply, over, just over / bőven, bőségesen
 duktig                                  able, capable / képes (vmire)
 dum                                     stupid / ostoba, buta
+dumdristig                              rash, foolhardy / vakmerő, meggondolatlan
 dyrbar                                  precious, expensive, valuable / drága, költséges, értékes, pompás
 dyster                                  depressing, gloomy, drab, dreary, sombre / komor, sötét, borongós, sivár, örömtelen, búskomor
 därefter                                afterward, then, thereafter / (az/ez)után, miután
@@ -73,6 +74,7 @@ flest                                   most / legtöbb
 flitig                                  hard-working, diligent / szorgalmas
 fort                                    quickly, fast / gyorsan, sebesen
 fortfarande                             still, continuous(ly)
+framfusig                               forward, pushy / tolakodó, erőszakos, rámenős
 framlänges                              forwards / előre(felé)
 framme                                  in front, out / elöl, itt, ott
 framåt                                  ahead, forward / előre, tovább
@@ -94,6 +96,7 @@ förbannad                               damned, bloody, cursed, mad, pissed / �
 förbi                                   past / túl rajta
 före                                    by, before, in front of / előtt, elé, előtti
 före detta                              ex-, late, former / korábbi, egykori, volt
+förfärlig                               terrible, frightful / rémítő, szörnyű, iszonyú
 förkyld                                 having a cold / meg van fázva
 förmögen                                wealthy, affluent / vagyonos, jómódú, tehetős
 förnär [göra ngn ~]                     harm / árt, kárt v. bajt okoz vkinek, megbánt vkit
@@ -113,6 +116,7 @@ förvånad                                surprised, astonished, amazed / csodá
 förvånansvärt                           surprisingly / meglepően, meglepő módon
 galen                                   mad, crazy, wrong / őrült, bolond, tébolyodott, hóbortos, eszeveszett
 ganska                                  fairly, somewhat, rather, quite
+gedigen                                 well-built, stable, thorough, genuine / megbízható, alapos, szolid
 gemensam                                common, collective / közös, együttes, közösségi, kollektív
 giftig                                  poisonous / mérges, mérgezett, mérgező
 gjord [av ngn]                          made [of sg] / megcsinált, -tett, elkészített, elintézett
@@ -146,6 +150,7 @@ här omkring                             around here / errefelé, itt a környé
 härlig                                  lovely, glorious, delightful, wonderful / nagyszerű, remek, pompás, gyönyörű
 höger                                   right / jobb
 högklackad                              high-heeled / magassarkú
+högljudd                                noisy, loud / hangos, zajos, lármás
 icke ...                                non-... / not-...
 ifall                                   if, in case / abban az esetben, ha
 igång                                   up-and-running, in motion / működő, mozgásban lévő
@@ -214,6 +219,7 @@ mulen                                   overcast / felhős
 myndig                                  of age (majority), authoritative / teljes- v. nagykorú
 mysig                                   cosy / meghitt, barátságos, kényelmes
 märkvärdig                              peculiar / figyelemre méltó, nevezetes, különös, sajátos, jellegzetes, kiemelkedő, kiváló
+mästrande                               masterful, sermonizing / leckéztető, kioktató
 mätt                                    full, satisfied / jóllakott, eltelt
 måndag                                  monday / hétfő
 måttlig                                 moderate / mérsékelt, mértékletes, mértéktartó
@@ -234,6 +240,7 @@ närvarande                              present / jelenlévő, jelenlegi, mosta
 nådig                                   merciful, gracious, clement / kegyelmes, irgalmas, elnéző
 någonsin                                ever / valamikor, valaha
 någonstans                              somewhere, anywhere / valahol, valahova, bárhol, bárhova
+någorlunda                              fairly, somewhat / némi(leg), némiképp(en), valamelyes(t), meglehetős(en)
 nåja, nåväl                             oh well
 nödvändig                               necessary / szükséges, elengedhetetlen
 nöjd                                    satisfied / elégedett
@@ -279,13 +286,16 @@ skyldig                                 in debt, owing, guilty / adós, tartozik
 skär                                    light red, pink / halványpiros, rózsaszín
 skön                                    pretty, beautiful / szép, gyönyörű, remek
 slarvig                                 careless, negligent, untidy, sloppy / hanyag, gondatlan, rendetlen, trehány
+slösaktig                               lavish, wasteful / pazarló, tékozló, költekező
 smal                                    thin, slim, narrow / vékony, keskeny
 smart                                   sly, sharp, smart / élelmes, furfangos, hétpróbás, ügyes
 smutsig                                 muddy, filthy, dirty / piszkos, szennyes, mocskos, sáros
 snarare                                 if anything, rather, sooner / inkább, hamarabb, előbb, gyorsabban
 snart                                   soon, shortly / nemsoká, hamarosan
 snäll                                   good(-natured), kind(-hearted), nice / kedves, szíves, szívélyes, jóságos, engedelmes, jó
+snål                                    mean, parsimonious, stingy, tight-fisted / zsugori, fukar, fösvény, szűkmarkú, kapzsi, mohó, gyér
 sparsam                                 thrifty, economical / takarékos, spórolós, beosztó
+splittrad                               fragmented, divided, unconcentrated / megosztott, elaprózott, szétszórt
 spännande                               exciting, tense, piquant, very interesting / érdekfeszítő, lebilincselő, izgalmas
 stackars                                poor [expr. sympathy] / szegény, szerencsétlen [szánalmat fejez ki]
 stadig                                  steady, firm, stable / szilárd, tartós, állandó, szolid, megfontolt, zömök, vastag, erős
@@ -296,12 +306,14 @@ stolt                                   proud / büszke
 sträng                                  strict, severe / szigorú, kemény, zord
 strålande                               brilliant, radiant / sugárzó, fénylő, ragyogó
 stygg                                   nasty, naughty / rossz, rakoncátlan, engedetlen, csúnya, csúf, undok, komisz
+ständigt                                continuously, all the time / folyamatosan, állandóan
 stängt                                  closed / zárt, zárva lévő
 sur                                     sour, sulky / savanyú, fanyar (átv. is), savas, rosszkedvű, morcos, mogorva
 svag                                    weak / gyenge, elgyöngült, bágyadt, erőtlen, engedékeny, elnéző, csekély
 syd/söder, södra                        the south, southern
 sysslolös                               idle, inactive / tétlen, dologtalan
 säker                                   safe, sure, certain, reliable / biztos, bizonyos, megbízható
+sällskapssjuk                           longing for company / társaságra vágyik
 sällsynt                                rare, unusual, uncommon / ritka, kivételes, szokatlan
 särskilt                                particularly, especially
 sådan                                   such / ilyen, olyan
@@ -329,7 +341,9 @@ tät                                     tight, close / szoros, sűrű, tömör,
 udda                                    odd / páratlan
 undan                                   away, out of the way / el, félre, -tól/től, alól, elől
 underförstådd                           implied, implicit / bennefoglalt, beleértett, beleértődő, burkolt, kimondatlan
+underlig                                odd, strange / különös, furcsa, csodálatos, hóbortos, hibbant
 ung                                     young / fiatal
+uppmuntrande                            encouraging / elismerő, bátorító
 uppriktig                               frank, candid / őszinte, nyílt, becsületes
 upptagen                                occupied, busy / foglalt, elfoglalt
 ursprunglig                             original / eredeti
@@ -374,6 +388,7 @@ värd                                    worth / [vmennyit] érő, [vmilyen] ér
 väster, västra                          the west, western
 våldsamt                                tremendously, fiercely, vehemently / borzasztóan, hevesen, szörnyen
 våt                                     wet (usually with water) / nedves, vizes, nyirkos
+ypperlig                                excellent, superb, first-class, second to none / kitűnő, kiváló, pompás, elsőrendű, príma
 ytterligare                             further, additional / további, újabb, pótlólagos, bővebb
 äkta                                    authentic, real / valódi, echte
 ändå                                    still, yet

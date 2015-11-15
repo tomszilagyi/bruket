@@ -110,6 +110,7 @@ förkorta                                shorten, abbreviate / (le)rövidít, me
 förlora                                 lose, give away, go down / elvesz(í)t, vesz(í)t, veszteséget szenved
 förminska                               diminish, miniaturize / kicsinyít, kisebbít, csökkent, leszállít
 försöka                                 try, attempt / megkísérel, meg/kipróbál, kísérletezik, igyekszik
+förutsätta                              assume, suppose / feltételez, feltesz
 förvandla                               change, turn into, transform / (át/meg)változtat, átalakít
 förändra                                change / (meg)változik
 ge                                      give (also fig.: present, produce) / ad (átvitt értelemben is)
@@ -119,6 +120,8 @@ gissa                                   suppose, guess / ki- v. eltalál, talál
 glida, gled, glidit                     slide, slip, glide / (le)csúszik, (le)siklik
 glänsa                                  shine, glisten, glitter / fénylik, ragyog, csillog, (átv) tündököl, kitűnik
 glömma, glömde                          forget, neglect / elfelejt, elmulaszt
+gnälla                                  whine, complain, grumble / morog, nyafog, nyöszörög, elégedetlenkedik
+grubbla                                 ponder, think deeply / töpreng, tépelődik, tűnődik, elmélkedik
 grädda                                  fry, bake / megsüt
 gräla                                   quarrel, scold, argue, dispute, fight / veszekszik, pörlekedik, civakodik
 gräva                                   dig / ás, váj, túr, kutat, keresgél, turkál, kiás, előkapar
@@ -165,6 +168,7 @@ jaga                                    hunt, chase [away] / vadászik, (ki)űz,
 jollra                                  babble / gügyög, gőgicsél, fecseg, csacsog, locsog
 kasta                                   cast, throw, discard, throw away / (ki)dob, -hajít, -vet
 kila                                    run, hurry / rohan, fut, szalad, nyargal
+kittla                                  tickle / csiklandoz
 klaga [på]                              complain [of sg] / panaszkodik [vmire], siránkozik, (be)panaszol, fellebbez
 klappa                                  clap, pat, pet / tapsol, megvereget, paskol, kopog
 klappa                                  clap, pet, pat, beat / tapsol, megvereget, -paskol, -simogat, ver, üt, kopog
@@ -175,6 +179,8 @@ klä                                     dress / öltözik
 klämma                                  pin, squeeze / szorít, szorongat, becsíp, nyom
 klättra                                 climb / mászik, kúszik, kapaszkodik
 knacka                                  knock / kopog(tat)
+knuffa                                  push, shove / lök, lökdös, bök, taszít, taszigál
+knuffas                                 crowd, push / lökdösődik, tolakodik
 knyta, knöt                             tie [also fig.] / csomót köt, csomóz, (meg)köt, (össze)köt(öz)
 knäppa                                  snap, click / csettint, pattint
 kolla                                   see, watch, look at, check / (rá)néz, csekkol
@@ -283,6 +289,7 @@ skrika                                  scream, call out, cry, shriek, shout / k
 skryta                                  boast, brag / dicsekszik, felvág, kérkedik, nagyzol
 skrämma                                 terrify, alarm, scare, intimidate, frighten / (meg) -ijeszt, -rémít, -riaszt, -félemlít
 skrämma                                 terrify, alarm, scare, intimidate, frighten / (meg)ijeszt/rémít/riaszt, megfélemlít
+skvallra                                gossip / pletykál(kodik), pletykázik, trécsel, traccsol, kifecseg
 skynda sig                              hasten, hurry / siet, iparkodik, igyekszik
 skälla                                  yelp, scold / megszid, gyaláz, pocskondiáz
 skänka                                  give, grant, present / ad, ajándékoz, adományoz, áldoz, szentel (vkire/vkinek vmit)
@@ -314,6 +321,7 @@ stava                                   spell / betűz
 steka                                   roast, fry / süt (roston/zsírban), pirít, párol
 sticka                                  knit / köt
 stjäla, stal, stulit                    steal / (el)lop
+stjälpa                                 overturn, tip, turn upside down / felborít, -fordít, -dönt
 strosa                                  stroll, mooch / csatangol, kószál, ténfereg
 stryka                                  iron, rub, stroke / vasal, (meg- v. végig)simít, simogat, dörzsöl
 sträcka                                 stretch, reach, distance, prolong / (ki)nyújt, meg/kifeszít, meghúz, kiterjeszt, elterül, kiterjed
@@ -412,6 +420,7 @@ väva                                    weave / sző
 växa                                    grow / nő, növekedik
 våga                                    dare, risk / mer, merészel, bátorkodik, kockáztat, kockára tesz
 äga, äger                               own / birtokol
+älta                                    knead, dwell on / kever, dagaszt, gyúr, (átv) rágódik vmin
 ära                                     honour / tisztel, tiszteletben tart, (nagyra) becsül
 åka [åker]                              go, ride / megy, utazik
 åska                                    thunderstorm / mennydörgés, égzengés, égiháború

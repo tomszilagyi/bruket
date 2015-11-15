@@ -73,6 +73,7 @@ brosch, en                              brooch / bross, melltű
 brännboll, en                           rounders / métajáték, nemzetesdi (labdajáték)
 brännvin, ett                           snaps, aquavit / tömény szeszesital, pálinka
 bröst, ett                              chest, breast / mellkas, mell
+budskap, ett                            message, announcement / üzenet, hír, értesítés
 bukett, en                              bouquet, bunch of flowers / (virág)csokor
 burk, en                                tin (can [US]), pot, jar / doboz (fém), üveg, korsó
 buske, en                               bush / bokor, cserje, bozót
@@ -173,6 +174,7 @@ fönster, ett                            window / ablak
 förberedelse, en                        preparation / előkészület
 förbindelse, en                         relations, connection / összeköttetés, kapcsolat, csatlakozás
 förbund, ett                            association, union, society / szövetség
+fördel, en                              benefit, advantage / előny, haszon
 förekomst, en                           occurrence, incidence / előfordulás, létezés, meglét, lelőhely
 föremål, ett                            thing, object, article / tárgy, téma
 förening, en                            society, association, compound / társaság, egyesület, szövetség, vegyület
@@ -590,6 +592,7 @@ skoj, ett                               fun, joke, mischief, jest, swindle, frau
 skorsten, en                            chimney, funnel, smokestack / kémény, kürtő
 skruvmejsel, en                         screwdriver / csavarhúzó
 skräck, en                              terror, horror, dread, fright / ijedtség, rémület, félelem
+skräddare, en                           tailor / szabó
 skull, en                               sake
 skylt, en                               plate, signboard, signpost / (cég-, cím-, név-, szám-)tábla, cégér, pajzs
 skäl, ett                               reason, cause, ground(s), motive, argument / ok, indok, alap, érv
@@ -619,6 +622,7 @@ springa, en                             narrow opening, chink / hasadék, rés, 
 sprit, en                               alcohol, spirit, booze / szesz, alkohol, spiritusz, tömény ital
 spår, ett                               rail, track, trace, print, sign, mark / nyom, kerékvágás, csapás, vágány, sínpár, pálya
 spårvagn, en                            tram / villamos
+spöke, ett                              ghost / kísértet, szellem
 stafett, en                             relay, relay race / (lovas)hírnök, hírvivő, (gyors)futár, küldönc, staféta
 stam, en                                root, trunk / tő, gyökér [szótő is]
 standard, en                            standard / szabvány, mérték, norma, fok, nívó, standard, színvonal
@@ -628,6 +632,7 @@ stearinljus, ett                        candle / sztearin gyertya
 steg, ett                               step (also fig.) / lépés (átv. is), lábnyom, lépcsőfok
 stereo, en                              stereo / magnó, hifi-torony
 stig, en                                path / ösvény, gyalogút
+stjälk, en                              stem, stalk / szár, kocsány, nyél, tő, törzs
 stjärna, en                             star [also figuratively] / csillag, sztár
 stjärngosse, en                         star boy (Lucia boy attendant)
 stjärt, en                              tail, backside, behind, bottom / farok, hátsó, ülep, fenék, far, popsi
