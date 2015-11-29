@@ -15,6 +15,7 @@ bakre                                   back / hátsó
 bakåt                                   backward(s), to the rear / hátra(felé), visszafelé
 begagnad                                secondhand, used / használt, másodkézből származó
 begåvad                                 talented, gifted / tehetséges
+bekymrad                                concerned, worried, troubled, anxious / aggódó, gondterhelt, borús, nyugtalan
 beroende                                dependent on / vmitől függő
 berömd                                  famed, famous, celebrated / híres, nevezetes
 beslutsam                               determined, resolute / határozott, elszánt
@@ -87,6 +88,7 @@ främre                                  front / elülső
 frågvis                                 inquisitive, curious / kérdezősködő, kíváncsi, tudni vágyó
 frånskild                               divorced / elvált
 ful                                     ugly, nasty, foul / csúnya, rút, ronda, rossz
+fundersam                               thoughtful, pensive / elgondolkodó, töprengő, megfontolt
 fylld                                   full, filled / tele, telt, töltött
 fyrfaldig                               fourfold, quadruple / négyszeres, négyszeri, négyes
 färsk                                   fresh, new, recent / friss, új, fiatal
@@ -324,6 +326,7 @@ söt                                     sweet, cute / édes, aranyos
 tillsammans                             together / együtt
 tisdag                                  tuesday / kedd
 tja                                     well (indicates doubt)
+tokig [i/på]                            mad, crazy / bolond, furcsa, ostoba, odavan vmitől
 torsdag                                 thursday / csütörtök
 trasig                                  torn / rongyos, szakadt
 trevlig                                 pleasant, likable (of person) / kellemes, kedves (személy)

@@ -179,11 +179,13 @@ förekomst, en                           occurrence, incidence / előfordulás, 
 föremål, ett                            thing, object, article / tárgy, téma
 förening, en                            society, association, compound / társaság, egyesület, szövetség, vegyület
 företag, ett                            company, business, enterprise / cég, vállalat, vállalkozás
+förhållande, en                         condition, circumstance, relationship / körülmény, helyzet, viselkedés, viszony, kapcsolat, arány
 förkläde, ett                           apron / kötény
 förlag, ett                             publishing house / (könyv)kiadó(vállalat)
 förmedling, en                          agency, mediating / közvetítés, közbenjárás, ügynökség
 förmåga, en                             power, ability, capacity / képesség, tehetség, rátermettség, ügyesség, erő
 förmögenhet, en                         fortune, capital / vagyon, gazdagság, javak [átv: képességek, szellemi javak]
+förnödenhet, en                         necessity / szükséglet, (köz)szükségleti cikk
 förorening, en                          pollution, pollutant, impurity / (környezet)szennyezés, szennyezőanyag
 förskola, en                            preschool / előkészítő iskola, óvoda
 förslag, ett                            proposal / javaslat
@@ -193,6 +195,7 @@ försäkringsbolag, ett                   insurance company / biztosító(társa
 försök, ett                             attempt, trial, experiment / kísérlet, próba, próbálkozás
 förteckning, en                         list, register / lista, jegyzék
 förutsättning, en                       condition, prerequisite / feltételezés, feltevés, (elő)feltétel
+förväntning, en                         expectation / várakozás, elvárás
 gardin, en                              curtain, drapery / függöny, drapéria
 gem, ett                                paper clip / gemkapocs, iratkapocs
 genombrott, ett                         breakthrough / áttörés
@@ -307,6 +310,7 @@ kjol, en                                skirt / szoknya
 klassamhälle, ett                       class society / osztálytársadalom
 klororganiska förening, en              organic chlorine compound / szerves klór vegyület
 klädsel, en                             dress, clothing / öltözet, ruha
+kläm, en                                pinch, squeeze / szorítás, csípés, nyomaték, lendület
 klänning, en                            dress, gown / (női) ruha, köntös
 knapphål, ett                           buttonhole / gomblyuk
 knytkalas, ett                          potluck supper / piknik
@@ -356,6 +360,7 @@ körkort, ett                            driving licence / jogosítvány, vezet�
 köttfärs, en                            ground meat / darált/vagdalt hús, fasírozott
 lager, ett                              stockroom, storage, stratum, layer, bearing, laurel / raktár, készlet, réteg (átv. is), csapágy, babér
 lagstiftning, en                        legislation / törvényhozás
+lakan, ett                              sheet, bedspreads / (ágy)lepedő
 lampa, en                               lamp / lámpa
 landsbygd, ett                          countryside / vidék, falu
 landshövding, en                        country governor / tartományfőnök
@@ -372,6 +377,7 @@ likgiltighet, en                        indifference / közömbösség, érzéke
 limpa, en                               loaf / cipó, vekni
 lingon, ett                             lingonberry / vörös áfonya
 linne, ett                              linen, vest / (len)vászon, ágynemű, fehérnemű, alsóruha, női ing
+linneskåp, ett                          linen closet / fehérneműs szekrény
 ljusglimt, en                           gleam of light / fénysugár
 lodjur, ett                             lynx / hiúz
 logement, ett                           barracks / legénységi szoba, lakóhelyiség
@@ -399,6 +405,7 @@ löpande band, ett                       conveyor belt / futószalag
 löpare, en                              runner / futó
 löv, ett                                leaf /(fa)levél
 macka, en                               sandwich [inf] / szendvics, vajas kenyér
+madrass, en                             mattress / matrac
 mage, en                                stomach / gyomor
 majestät, ett                           majesty / felség (Ers majestät: Your Majesty / Felséged)
 makaroner, pl.                          macaroni / makaróni
@@ -482,6 +489,7 @@ papper, ett                             paper / papír
 pappers- och massaindustri, en          paper and pulp industry / papír- és cellulózipar
 par, ett                                pair / pár
 paraply, ett                            umbrella / (es)ernyő
+paraplyterm, en                         umbrella term / gyűjtőfogalom
 part, en                                party / fél [ügyben, perben érdekelt]
 parti, ett                              party / párt
 pass, ett                               passport / útlevél
@@ -578,6 +586,7 @@ sjal, en                                scarf / sál, (fej)kendő
 självförtroende, ett                    self-confidence / önbizalom, önértékelés
 sjöfågeldöd, en                         death of seabirds / tengeri madarak pusztulása
 sjöhäst, en                             seahorse / tengeri csikó (hal)
+skara, en                               body, multitude, troop, band, crowd / csoport, csapat, sereg, banda, falka
 skata, en                               magpie / szarka
 skildring, en                           depiction, description, portrayal / leírás, ábrázolás, elbeszélés, rajz
 skillnad, en                            distinction, divergence, difference, disparity / különbség, eltérés, különbözet
@@ -590,6 +599,7 @@ skjuts, en                              shove, push, lift / (el)szállítás, fu
 sko, en                                 shoe / cipő
 skoj, ett                               fun, joke, mischief, jest, swindle, fraud, racket / csalás, szélhámosság, svindli, humbug, móka, tréfa, csíny
 skorsten, en                            chimney, funnel, smokestack / kémény, kürtő
+skrapa, en                              grader, scraper / kaparó, vakaró, hántoló, lábtörlő
 skruvmejsel, en                         screwdriver / csavarhúzó
 skräck, en                              terror, horror, dread, fright / ijedtség, rémület, félelem
 skräddare, en                           tailor / szabó
@@ -671,6 +681,8 @@ syre, ett                               oxygen / oxigén
 syrebrist, en                           lack of oxygen / oxigénhiány
 säkerhetsbält, ett                      safety belt / biztonsági öv
 sällskap, ett                           company / cég, társaság
+säng, en                                bed / ágy
+sängkläder, pl                          bedding, bedclothes / ágynemű
 såg, en                                 saw / fűrész
 sågverk, ett                            sawmill / fűrésztelep, -malom
 sökande, en                             applicant / jelentkező
@@ -706,6 +718,7 @@ tofflor, pl.                            slippers / (egy pár) papucs
 tofs, en                                tuft / bojt, rojt
 tolk, en                                interpreter / tolmács?
 tomt, en                                site, plot / telek, házhely, kert, udvar
+torktumlare, en                         tumble drier / ruhaszárító (gép)
 torsk, en                               cod / tőkehal
 totalförsvar, ett                       overall defence
 totalförsvarsplikt, en                  overall defence duty / általános védelmi szolgálat
@@ -727,6 +740,7 @@ tvärgata, en                            crossroad, cross-street / keresztutca, 
 tvättstuga, en                          laundry room / mosókonyha
 tyg, ett                                material, fabric / szövet, kelme, anyag
 tystnad, en                             silence / csend(esség), hallgatás
+täcke, ett                              covering, quilt / takaró, (ágy)terítő, paplan, lepel
 tält, ett                               tent / sátor
 tärna, en                               attendant, bridesmaid / hajadon, leányzó, nyoszolyólány
 tätort, en                              population centre / beépített v. lakott terület, település, (nagyobb) helység
@@ -742,6 +756,7 @@ uppehåll, ett                           break, dry (weather) / megszakítás, f
 uppfinnare, en                          inventor / feltaláló
 uppförsbacke, en                        uphill slope / emelkedő
 uppgift, en                             task, duty / feladat
+uppmuntran, en                          encouragement / serkentés, bátorítás, buzdítás, elismerés, vigasztalás
 uppmärksamhet, en                       attention / figyelem
 uppsats, en                             article, paper, essay / dolgozat, cikk, tanulmány
 uppståndelse, en                        resurrection, stir / feltámadás, izgalom, nyugtalanság
@@ -843,5 +858,6 @@ yttrande, ett                           statement / kijelentés, nyilatkozat, v�
 öra, ett                                ear / fül
 örhänge, ett                            earring / fülbevaló
 öring, en                               trout, salmon trout / lazacpisztráng, tengeri pisztráng
+örngott, ett                            pillow case / párnahuzat
 övergödning, en                         over-nourishment, over-fertilization / túltápláltság, túltrágyázottság
 överraskning, en                        surprise / meglepetés
