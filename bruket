@@ -8,6 +8,8 @@
 
 -define(PROMPT, "> ").
 
+-define(STRIP_3RD_LANGUAGE, false).
+
 -record(word, { class    :: noun | verb | adverb | adjective | other
               , subclass :: atom()
                 %% class-dependent, eg. gender for nouns, declension group for
@@ -76,7 +78,8 @@ parse(Filename, AccIn) ->
 
 parse_line(Class, Line) ->
     %% Largest chunk of whitespace separates forms from translations
-    {Forms, Trans} = split_blank(Line),
+    {Forms, Trans0} = split_blank(Line),
+    Trans = strip_3rd_language(?STRIP_3RD_LANGUAGE, Trans0),
     parse_entry(Class, tokenize_csv(Forms), tokenize_csv(Trans)).
 
 %% This can be split into multiple clauses based on Class.
@@ -265,6 +268,13 @@ print_question({Question, NRem}) ->
     color(white, "~ts~n", [Question]);
 print_question(Question) ->
     color(white, "~n~ts~n", [Question]).
+
+strip_3rd_language(false, Str) -> Str;
+strip_3rd_language(true, Str)  ->
+    case string:rstr(Str, " / ") of
+        0 -> Str;
+        I -> string:substr(Str, 1, I-1)
+    end.
 
 %% ANSI escape sequences for color support
 color(Color, Format) -> color(Color, Format, []).

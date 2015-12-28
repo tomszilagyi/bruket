@@ -11,13 +11,13 @@ avskaffa                                do away with, get rid of, abolish / megs
 avsky                                   loathe, abhor, detest / utál, undorodik, irtózik, gyűlöl
 backa                                   back, reverse / hátrál, hátrafelé v. visszafelé halad
 bada                                    bath / fürdik
-bada bastu                              szaunázik
+bada bastu                              take a sauna / szaunázik
 banta                                   lose weight / fogy, lefogy, fogyókúrát tart, koplal
-be                                      ask, request, beg, pray / kér, kérlel, könyörög, felkér
+be, ber, bad, bett                      ask, request, beg, pray / kér, kérlel, könyörög, felkér
 befalla                                 command, order / (meg)parancsol, meghagy, rendelkezik
 begära                                  ask, request, demand, apply for / (meg)kíván, óhajt, kér, igényel, követel
 behandla                                handle, discuss, consider, manage, treat / kezel, bánik, tárgyal, foglalkozik vmivel, intéz
-behålla                                 retain, keep, hold onto / megtart, fenntart, megőriz
+behålla, behåller, behöll, behållit     retain, keep, hold onto / megtart, fenntart, megőriz
 behöva (behöver)                        want, need, require
 belöna                                  reward, award (a price to) / (meg)jutalmaz, (meg)fizet
 bero på                                 depend on, be due to / függ tőle, múlik rajta
@@ -34,8 +34,9 @@ betyda, betydde, betytt                 imply, signify, mean / jelent, jelentős
 beundra                                 admire / (meg)csodál, (meg)bámul, rajong
 bevara                                  protect, preserve, maintain, save / (meg)őriz, megtart, megóv, -véd
 bilda                                   establish, found, form, constitute / képez, alakít, alapít, létrehoz
-bjuda                                   invite, offer, ask / meghív, kínál, ad
+bita, biter, bet, bitit                 bite / (meg)harap, megmar, (meg)csíp, -szúr, vág
 bjuda på middag                         invite to dinner / meghív vacsorára
+bjuda, bjuder, bjöd, bjudit             invite, offer, ask / meghív, kínál, ad
 blanda                                  blend, mix, mingle / (össze)kever, vegyít, cserél; ~ ihop: össze/elkever, összecserél
 blanda ihop                             mistake, mix up / össze- v. elkever, összecserél
 bleka                                   bleach, fade / fehérít, fakít
@@ -46,63 +47,69 @@ blunda                                  shut one's eyes, (fig) pretend not to no
 bläddra                                 browse / lapozgat, böngészik
 bo                                      live (somewhere) / él (lakik)
 borra                                   bore, drill / fúr, meg/kifúr
-breda, brer                             spread / megken (kenyeret)
-brinna, brann, brunnit                  burn, be on fire / ég, elég, lángol
+breda, brer, bredde, brett              spread / megken (kenyeret)
+brinna, brinner, brann, brunnit         burn, be on fire / ég, elég, lángol
 brodera                                 embroider / hímez
 bromsa                                  brake, apply the brake [also fig.] / fékez, behúzza a féket
 bruka                                   be in the habit of, cultivate / szokott ...-ni (segédige inf. alakú igével)
 bry                                     care / törődik, gondot fordít vmire, érdeklődik vmi iránt
 brygga                                  make, produce, brew / készít, főz, kotyvaszt
-bryta, bröt, brutit                     break / (el/le/fel/össze/meg)tör, (le/meg)szakít, megszeg
+bryta, bryter, bröt, brutit             break / (el/le/fel/össze/meg)tör, (le/meg)szakít, megszeg
 brädsegla                               windsurf, sailboard
 bråka                                   kick up a fuss, fight, cause trouble, make a noise / zajong, lármázik, zűrt csinál, akadékoskodik, kötekedik, veszekszik
 buga                                    bow / meghajol
 burra [upp]                             fluff / [fel]borzol, bolyhoz, berzenkedik
-bära                                    carry, wear
+bära, bär, bar, burit                   carry, wear / visz, hoz, hord, visel, elvisel, eltűr, elbír
 böja                                    bow, curve, bend / hajol, hajlít, görbít
-böra                                    should, ought to / (segédige) kell, illik, -andó/-endő
-börja                                   begin / kezd(ődik)
+böra, bör, borde, bort                  should, ought to / (segédige) kell, illik, -andó/-endő
+börja, börjar, började, börjat          begin / kezd(ődik)
 damma                                   dust / porol, porzik, port töröl
 dammsuga                                to vacuum clean / porszívózik
 dela                                    cut up, split up, divide, share / feloszt, megoszt
 dela ut                                 give away, dispense / kioszt, osztogat
 diska                                   wash the dishes / mosogat
 dofta                                   smell (pleasant) / (kellemesen) illatozik
+dra, drar, drog, dragit                 draw, pull, haul, leave, go / húz, von, ránt, ráncigál, vonz, igényel, fogyaszt, vonul, jár
+dricka, dricker, drack, druckit         drink / iszik, vedel
 driva                                   drive, carry on, operate, run / (meg)hajt, űz, kerget, visz
 dröja                                   hesitate, wait, delay, take a long time / habozik, húzódozik, késlekedik, várat magára, halogat, elhalaszt, időzik, marad, vár
 duka                                    lay the table / megterít (asztalt)
 dundra                                  rumble / (menny)dörög, dübörög, harsog, recseg, ropog
 dunka                                   throb, pound / üt, ver, dobog, dörömböl, zörget
 dunka ngn i ryggen                      pound sy on the back / megveregeti a vállát
-dyka, dök, dykt                         dive / lebukik, le- v. alámerül, lecsap
 dyka upp                                show up, turn up, emerge / felmerül, felbukkan, előbukkan
+dyka, dyker, dök, dykt                  dive / lebukik, le- v. alámerül, lecsap
+dö, dör, dog, dött                      die / meghal, elpusztul, elhull
 döpa                                    baptise / keresztel
 efterträda                              succeed / követ, helyébe lép (utódként)
 erbjuda                                 offer / (fel)ajánl, kínál, mutat, nyújt, biztosít
 ersätta                                 compensate, replace, substitute / pótol, kárpótol, helyettesít
 etablera                                establish / berendez(kedik), létesít, felállít, alapít, elkezd
-falla, föll, fallit                     fall / (el/le)esik, (le)hull, (le)zuhan, (el/meg)bukik
-fara, for, farit                        go / utazik, (el)megy, halad
+falla, faller, föll, fallit             fall / (el/le)esik, (le)hull, (le)zuhan, (el/meg)bukik
+fara, far, for, farit                   go / utazik, (el)megy, halad
 fastna                                  get caught / (oda)tapad, hozzáragad, (meg/fenn/bele/el)akad, megreked
 fatta                                   catch, grasp, understand / felfog, megért, megfog
 fattas                                  be missing (short, lacking) / hiányzik, vminek híján v. szűkében van
+finnas, finns, fanns, funnits           am, is, are / van, létezik, kapható, található, akad
 fira                                    celebrate / (meg)ünnepel/tart/ül
 flaxa                                   flap, flutter / röpdös, röpköd, lobog, csapkod, csapdos
 fly, flydde, flytt                      flee / elmenekül, elfut, megfutamodik, tovatűnik, elröppen
-flyta                                   flow / folyik
+flyga, flyger, flög, flugit             fly / repül, száll, siet, rohan
+flyta, flyter, flöt, flutit             flow, float / folyik
 flämta                                  pant, puff, blow / liheg, zihál, pislákol, gyengén ég
 fnittra                                 titter, giggle / kuncog, nevetgél
 fordra                                  claim, demand, request / kíván, követel, igényel
 forsa                                   rush, gush / zuhog, zúg, özönlik, ömlik, kiárad, kiömlik, túlárad
-fortsätta                               continue, go on, carry on / folytat, vmit tovább csinál
+fortsätta, fortsatte, fortsatt          continue, go on, carry on / folytat, vmit tovább csinál
 framföra                                present, give, convey / átad, átnyújt, előad, elmond
 fria                                    propose / megkéri a kezét vkinek
-fräsa                                   fry, spit, sputter / sistereg, serceg, megpirít, fúj (mérgében / orrot)
+frysa, fyrser, frös, frusit             freeze / be- v. megfagy, el- v. lefagy, fázik, didereg
+fräsa, fräser, fräste, fräst            fry, spit, sputter / sistereg, serceg, megpirít, fúj (mérgében / orrot)
 fundera                                 think, ponder / elgondolkozik, megfontol, fontolgat, töpreng
 fungera                                 function / működik, szerepet betölt
 fängsla                                 imprison, captivate, fascinate / bebörtönöz, elfog, rabul ejt
 färdas, färdades, färdats               travel / utazik, jár
-få                                      receive, get / kap, szerez
+få, får, fick, fått                     may, get, can, have, receive / kap, megkap, szerez, nyer, talál; hoz, rávesz, rábír; szabad, lehet, kell
 fånga                                   capture, catch, arrest / elfog, megfog, letartóztat
 föda                                    give birth to, give rise to, feed / szül, világra hoz, létrehoz, kelt, tenyészt
 följa                                   follow, accompany, comply / követ
@@ -117,16 +124,17 @@ förknippa                               associate / összekapcsol, összefűz
 förkorta                                shorten, abbreviate / (le)rövidít, megkurtít, egyszerűsít
 förlora                                 lose, give away, go down / elvesz(í)t, vesz(í)t, veszteséget szenved
 förminska                               diminish, miniaturize / kicsinyít, kisebbít, csökkent, leszállít
+förstå, förstår, förstod, förstått      understand / ért, megért, felfog, ért vmihez, kiismeri magát vmiben
 försöka                                 try, attempt / megkísérel, meg/kipróbál, kísérletezik, igyekszik
 försörja                                provide for, support / gondoskodik, ellát, el- v. fenntart
 förutsätta                              assume, suppose / feltételez, feltesz
 förvandla                               change, turn into, transform / (át/meg)változtat, átalakít
 förändra                                change / (meg)változik
-ge                                      give (also fig.: present, produce) / ad (átvitt értelemben is)
+ge, ger, gav, gett                      give (also fig.: present, produce) / ad (átvitt értelemben is)
 genomföra                               carry out / végrehajt, kivitelez, megvalósít, keresztülvisz, alkalmaz
 gilla                                   approve, like / helyesel, elismer, jóváhagy, jónak tart
 gissa                                   suppose, guess / ki- v. eltalál, találgat, megfejt
-glida, gled, glidit                     slide, slip, glide / (le)csúszik, (le)siklik
+glida, glider, gled, glidit             slide, slip, glide / (le)csúszik, (le)siklik
 glänsa                                  shine, glisten, glitter / fénylik, ragyog, csillog, (átv) tündököl, kitűnik
 glömma, glömde                          forget, neglect / elfelejt, elmulaszt
 gnälla                                  whine, complain, grumble / morog, nyafog, nyöszörög, elégedetlenkedik
@@ -134,14 +142,17 @@ grubbla                                 ponder, think deeply / töpreng, tépel�
 grädda                                  fry, bake / megsüt
 gräla                                   quarrel, scold, argue, dispute, fight / veszekszik, pörlekedik, civakodik
 gräva                                   dig, delve, mine / ás, váj, túr, kutat, keresgél, turkál, kiás, előkapar
-gråta                                   cry, weep / sír, megsirat
+gråta, gråter, grät, gråtit             cry, weep / sír, megsirat
 gunga                                   swing / hintázik, himbálódzik, ring, inog
 gälla                                   pertain to, apply, concern / érint, céloz, vonatkozik, szól [vmiről], érvényes, súlya/jelentősége van, [vminek] számít
 gäspa                                   yawn / ásít
 gå med [i]                              join / csatlakozik
+gå, går, gick, gått                     go, walk, run, progress, leave / megy, jár, történik, folyik, rúg vmennyire
 gömma                                   conceal, hide, keep, put aside, save / elbújik, elrejtőzik, elrejt, eldug, (meg)őriz, tartogat, (jól) eltesz
 göra om                                 redo, change, do over, make over, remake / még egyszer csinál, megismétel, változtat, átdolgoz
+göra, gör, gjorde, gjort                do, make, cause / (meg)csinál, (meg)tesz, készít, előállít, okoz, kelt, cselekszik
 ha nytta                                benefit, find useful / hasznára/előnyére válik
+ha, har, hade, haft                     have, possess, be provided with / bír, (meg)van neki, kell
 hacka                                   hack, mince, cut, chop / vág, vagdal, aprít, kalapál, csipked, csipeget, szedeget
 hala                                    haul, tug, pull / (be)von, vontat, (be)húz
 halstra                                 cook on a grill / roston süt
@@ -149,8 +160,8 @@ hamna                                   land, end up / kiköt, révbe jut, végz
 handla                                  buy, shop / vesz, vásárol, kereskedik, eljár
 handla om                               deal with, be about / szól vmiről, tárgyal vmit
 heja                                    support, cheer, greet / lelkesít, biztat, odakiált
-heta, heter, hette                      be called/named / hívják, nevezik vkinek/vminek
-hinna, hann, hunnit                     manage, have time, reach, advance / elér, (el)jut, halad, elkészül, ráér, van ideje
+heta, heter, hette, hetat               be called/named / hívják, nevezik vkinek/vminek
+hinna, hinner, hann, hunnit             manage, have time, reach, advance / elér, (el)jut, halad, elkészül, ráér, van ideje
 hitta                                   find, come across / (meg)talál, rátalál, eligazodik
 hitta på                                make up, invent, think of / kitalál, kigondol, kieszel, kohol
 hjälpa till                             assist, make oneself useful, lend a hand / segít, kisegít, közreműködik
@@ -164,9 +175,9 @@ hälla                                   pour / önt, kiönt, tölt, ömlik, zuh
 hälsa [på någon]                        greet, welcome sy / köszön(t) vkit/vkinek
 hämta                                   fetch, collect / elhoz, érte megy, begyűjt
 härska [över]                           reign, prevail [over], be prevalent, rule, dominate / uralkodik [vmin, vmi felett], dominál, honol
-hålla                                   hold, keep, grasp, grip / (meg/be/fenn)tart
 hålla av                                be fond of, be attached to, love / szeret vkit, ragaszkodik vkihez
 hålla tal                               give a speech / beszédet mond
+hålla, håller, höll, hållit             hold, keep, grasp, grip / (meg/be/fenn)tart
 införa                                  introduce / bevezet, behoz, importál
 införliva                               incorporate / bekebelez, birtokba vesz, hozzácsatol, összekapcsol, egyesít
 inge                                    inspire, infuse / sugalmaz, kelt, bead, benyújt
@@ -190,10 +201,11 @@ klättra                                 climb / mászik, kúszik, kapaszkodik
 knacka                                  knock / kopog(tat)
 knuffa                                  push, shove / lök, lökdös, bök, taszít, taszigál
 knuffas                                 crowd, push / lökdösődik, tolakodik
-knyta, knöt                             tie [also fig.] / csomót köt, csomóz, (meg)köt, (össze)köt(öz)
+knyta, knyter, knöt, knutit             tie [also fig.] / csomót köt, csomóz, (meg)köt, (össze)köt(öz)
 knäppa                                  snap, click / csettint, pattint
 kolla                                   see, watch, look at, check / (rá)néz, csekkol
 komma ihåg ngn                          recall/remember sy / emlékszik valakire
+komma, kommer, kom, kommit              come, arrive, will, going to / (meg)jön, megy, érkezik, ér, jut, kerül
 koppla                                  connect, [informal:] catch on
 koppla av                               relax
 koppla av                               relax, sit back / kikapcsol, kikapcsolódik, pihen
@@ -203,32 +215,33 @@ kratta                                  rake / gereblyéz
 krocka                                  collide / összeütközik, nekimegy (járművel)
 krossa                                  crush / (szét/össze)zúz, (össze)tör, szétroncsol, -morzsol, betör, bezúz, porrá tör/zúz, megtör, szertefoszlat (ábrándokat)
 krydda                                  flavour, season / fűszerez, ízesít
-krypa                                   creep, crawl / csúszik, mászik, kúszik
+krypa, kryper, kröp, krupit             creep, crawl / csúszik, mászik, kúszik
 kräva                                   demand, claim, require / (meg)követel, kíván, igényel
 kunna, kunde                            can, know / tud, képes vmire
 kyssa                                   kiss / (kezet) csókol
-känna                                   know, feel, sense / tud, ismer, érez, érzékel
+känna, känner, kände, känt              know, feel, sense / tud, ismer, érez, érzékel
 laga                                    make, repair / csinál, javít
 lagra                                   store, accumulate, pile up / (el/be)raktároz, tárol, lerakódik, rétegződik
-le, log, lett                           smile / mosolyog
+le, ler, log, lett                      smile / mosolyog
 leta efter ...                          look for ... / keres vmit
-leva                                    live / él
-leva av, leva på                        live off / vmiből él
-ligga, låg, legat                       lie, be situated / fekszik, tartózkodik vhol, van
+leva av|på                              live off / vmiből él
+leva, lever, levde, levt                live / él
+ligga, ligger, låg, legat               lie, be situated / fekszik, tartózkodik vhol, van
 likna                                   resemble, look / hasonlít, [vkire] üt
 lita [på]                               rely [on] / megbízik vkiben, ráhagyatkozik vkire
 ljuga                                   lie / hazudik
 lossa                                   loosen, discharge (fire), unload / (meg/ki)old, (meg)lazít, kirak(odik), lead (lövést)
 lova                                    promise / ígér, megígér, megfogad
 lyckas                                  succeed, manage to / sikerül [véghezvinni vmit]
-lyfta                                   raise, take off, draw, withdraw / (fel)emel, felvesz, (fel)emelkedik, (fel)száll
+lyfta, lyfter, lyfte, lyft              raise, take off, draw, withdraw / (fel)emel, felvesz, (fel)emelkedik, (fel)száll
 lysa                                    shine / ragyog
-lägga, lade                             put, place, set, lay / fektet, helyez, tesz, rak
+lägga, lägger, lade, lagt               put, place, set, lay / fektet, helyez, tesz, rak
 lämna                                   leave, give, hand / (ott)hagy, elhagy, hátrahagy, átenged, átad, nyújt, ad, hoz
 lära                                    teach / tanít
+läsa, läser, läste, läst                read, study / olvas, felolvas, tanul
 låna                                    borrow / kölcsönöz, kölcsönad, -kap, -vesz
-låsa                                    lock [also fig.] / (be/el/le)zár, lelakatol, bereteszel
-låta, lät                               sound / hangzik
+låsa, låser, låste, låst                lock [also fig.] / (be/el/le)zár, lelakatol, bereteszel
+låta, låter, lät, låtit                 sound / hangzik
 löna sig                                be profitable, pays / kifizetődik, hasznot hajt, érdemes
 medföra                                 bring, convey, result in / magával hoz, elhoz, okoz, előidéz, maga után von, együtt jár
 minnas, minnes                          recall, remember / (vissza)emlékezik, emlékezetben tart
@@ -274,8 +287,8 @@ rycka in                                join up [for military service] / bevonul
 rycka ut                                be demobilized [having completed mil.service] / leszerel [seregből]
 rymma                                   escape, run away, hold, contain / megszökik, elmenekül, meglép, -lóg, magában foglal, tartalmaz, befogad
 rynka                                   wrinkle / ráncol, redőz
-ryta                                    bellow, roar / ordít, bőg, bömböl, üvölt
-räcka, räcker                           pass, hold out, reach, be enough / elér, kitart, elegendő
+ryta, ryter, röt, rutit                 bellow, roar / ordít, bőg, bömböl, üvölt
+räcka, räcker, räckte, räckt            pass, hold out, reach, be enough / elér, kitart, elegendő
 räta                                    straighten / kiegyenesít, kinyújt
 råda                                    exist, prevail, advise / uralkodik, rendelkezik, határoz, végez, tanácsol, tanácsot ad
 råka [ut för en olycka]                 meet, chance (happen) to, get (fall) into, find oneself in [have an accident] / találkozik, összeakad, (el)talál, véletlenül történik vele
@@ -283,20 +296,26 @@ råna                                    rob / rabol, kirabol
 rösta                                   vote / választ, szavaz
 sakna                                   miss / hiányzik (neki valaki)
 satsa [på]                              stake, back, venture, bet on / befizet (üzletrészt), nekifut, lendületet vesz, kockáztat, (meg)tesz (tétet), fogad vmire
+se, ser, såg, sett                      see, look, notice, view, watch / (meg)lát, néz, tekint, észrevesz
 signalera                               signal, announce, notify, honk / jelez, jelt ad, dudál
 simma                                   swim / úszik
+sitta, sitter, satt, suttit             sit, be seated, be / ül, (benne) van, tartózkodik, áll, fekszik
+sjunga, sjunger, sjöng, sjungit         sing / énekel
+sjunka, sjunker, sjönk, sjunkit         sink, fall, drop, go down / (el)süllyed, -merül, -süpped, (le)rogy, -roskad, -esik, apad, csökken, hanyatlik
 skada                                   hurt, injure, damage, impair, harm / kárt/bajt okoz, árt, károsít, (meg)rongál, (meg)sebesít, (meg/fel)sért
 skaffa                                  get, obtain, get hold of / szerez, szert tesz, hoz(at)
 skaka, skakar                           shake
 skala                                   shell, pare, peel / (meg)hámoz, hánt, tisztít, pucol
 skapa                                   cause, engender, produce, give rise to, make, create / teremt, alkot, létrehoz, szerez
-ske                                     take place, happen, occur, come about / (meg)történik, megesik, bekövetkezik, teljesedik
+ske, sker, skedde, skett                take place, happen, occur, come about / (meg)történik, megesik, bekövetkezik, teljesedik
 skicka                                  send, forward / küld, továbbít
+skina, skiner, sken, skinit             shine, glare, gleam, blaze / fénylik, ragyog, süt, sugárzik
 skoja                                   swindle, cheat, have fun, joke / csal, szélhámoskodik, svindlizik, mókázik, tréfál, bolondozik
 skola, ska, skulle, skolat              shall, will, have to, must / jövőidő, szándék, felszólítás, feltételes/kétkedő
 skolka                                  cut class, play truant / lóg, bliccel, indokolatlanul távol marad
 skramla                                 jingle, jangle, rattle / csörög, csörömpöl, zörög
-skrika                                  scream, call out, cry, shriek, shout / kiált, kiabál, rikolt, ordít, üvölt
+skrika, skriker, skrek, skrikit         scream, call out, cry, shriek, shout / kiált, kiabál, rikolt, ordít, üvölt
+skriva, skriver, skrev, skrivit         write / ír, megír
 skryta                                  boast, brag / dicsekszik, felvág, kérkedik, nagyzol
 skrämma                                 terrify, alarm, scare, intimidate, frighten / (meg) -ijeszt, -rémít, -riaszt, -félemlít
 skura                                   scour, polish, clean, scrub / súrol, sikál, fényesít, csiszol
@@ -313,8 +332,8 @@ slingra sig                             tekeredik, csavarodik, [vmi köré] fon�
 sluta                                   stop, finish / abbahagy, lezár
 släcka                                  extinguish, put out, slake, quench, turn/switch off / (el/ki)olt, kikapcsol, csillapít
 släppa                                  release, leave hold of, let go / elenged, elereszt, elejt, lemond, békén hagy
-slå, slog, slagit                       hit, beat, knock, strike, smite / üt, ver, csap, önt, tölt, dob, vet, rúg
 slå ut                                  bowl out, bud, burst / kiüt, kiver, kicsap, kiönt, kihajt, kifakad, (átv) végződik, sikerül
+slå, slår, slog, slagit                 hit, beat, knock, strike, smite / üt, ver, csap, önt, tölt, dob, vet, rúg
 slåss, slogs, slagits                   fight / verekedik, verekszik, küzd, harcol
 slösa                                   lavish, squander, waste / (el)pazarol, (el)tékozol, (el)fecsérel, költekezik, herdál, elpocsékol, elveszteget
 smälta                                  melt, smelt, dissolve, fuse / meg-, fel-, kiolvaszt, megemészt, lenyel, elvisel, megemésztődik, összeolvad
@@ -323,20 +342,23 @@ snarka                                  snore / horkol, hortyog
 snickra                                 do carpentry / asztalosmunkát végez, barkácsol
 somna                                   fall asleep / elalszik
 sopa                                    sweep / seper, kiseper, elsöpör
+sova, sover, sov, sovit                 sleep, be asleep / alszik, szunyókál, szundít
 sparka                                  kick / rúg, megrúg, belerúg, rugdalózik, rugdos
 spilla                                  spill / (ki/le)önt, kiloccsant, le/elszór, leejt
 spotta                                  spit / köp, köpköd, köpdös
-spricka, sprack, spruckit               crack, fracture, split / reped, hasad, szétreped, elpattan, felhasad, kinyílik
+spricka, spricker, sprack, spruckit     crack, fracture, split / reped, hasad, szétreped, elpattan, felhasad, kinyílik
+springa, springer, sprang, sprungit     run / szalad, fut, rohan, szaladgál, futkározik, futkos, rohangál, ugrik, szökken, pattan, fel- v. előtör
 spänna                                  tense, draw / (meg)feszít, meghúz, (be)fog, becsatol [pl. bizt.övet]
 spå, spådde, spått                      predict, foretell, prophesy / jósol, jövendöl
 stanna                                  stop / megáll, áll, megakad, megszakad
 stava                                   spell / betűz
 steka                                   roast, fry / süt (roston/zsírban), pirít, párol
 sticka                                  knit / köt
-stjäla, stal, stulit                    steal / (el)lop
+stiga, stiger, steg, stigit             walk, step, tread, rise / lép, jár, megy, (fel)száll, emelkedik, kel, növekszik, drágul, árad (víz)
+stjäla, stjäl, stal, stulit             steal / (el)lop
 stjälpa                                 overturn, tip, turn upside down / felborít, -fordít, -dönt
 strosa                                  stroll, mooch / csatangol, kószál, ténfereg
-stryka                                  iron, rub, stroke / vasal, (meg- v. végig)simít, simogat, dörzsöl
+stryka, stryker, strök, strukit         iron, rub, stroke / vasal, (meg- v. végig)simít, simogat, dörzsöl
 sträcka                                 stretch, reach, distance, prolong / (ki)nyújt, meg/kifeszít, meghúz, kiterjeszt, elterül, kiterjed
 strö                                    sprinkle / szór, hint
 stunda                                  approach, draw near / közeleg
@@ -344,25 +366,29 @@ stuva                                   stow / párol, dinsztel, főz, mártáss
 städa                                   clean, tidy up / takarít, rendet rak
 ställa                                  set, put
 ställa in                               adjust, setting   (i stället -- in/as adjustment)
-stämma                                  agree, correspond, tune, tally / egyezik, stimmel, összhangban van
+stämma, stämmer, stämde, stämt          agree, correspond, tune, tally / egyezik, stimmel, összhangban van
 stämpla                                 stamp / (le)bélyegez, (le)pecsétel, megjelöl
-stå                                     stand / áll
 stå på                                  be on, be going on, be switched on / megy, folyamatban van, be van kapcsolva
+stå, står, stod, stått                  stand / áll
 stöda                                   support, steady / (meg/alá)támaszt, támogat, segít, alapít, alapoz
 sucka                                   sigh / sóhajt
 sura                                    sulk / duzzog, rosszkedvű, morcoskodik
-svika                                   fail, desert, disappoint, let down / cserbenhagy, elhagy, faképnél hagy
+svida, svider, sved, svidit             smart, sting, burn / ég, mar, csíp, sajog, fáj
+svika, sviker, svek, svikit             fail, desert, disappoint, let down / cserbenhagy, elhagy, faképnél hagy
 svänga                                  take a turn / kanyarodik, befordul
-svära                                   curse, swear / káromkodik, szitkozódik, esküdözik vmire
+svära, svär, svor, svurit               curse, swear / káromkodik, szitkozódik, esküdözik vmire
 sy                                      sew / varr
 sy om                                   varrással átalakít, átvarr, újra megvarr
 syssla [med ngn]                        busy oneself with sg / foglalkozik, foglalatoskodik, elfoglalja magát vmivel
+säga, säger, sa, sagt                   say / mond, szól, beszél
+sälja, säljer, sålde, sålt              sell / elad, árul, árusít, áruba bocsát, értékesít
 sända                                   transmit, broadcast, send / (le)ad, közvetít, sugároz, küld
 sätta i gång                            get in motion, get moving, running, started / megindít, működésbe hoz
 sätta på                                put (switch) on / rá- v. feltesz, felrak
 såra                                    wound, hurt / megsebesít, (meg)sebez, megsért, átv. megbánt
 ta emot                                 receive, accept / fogad (pl. látogatót)
 ta hand om                              take care of, look after / gondoz, gondját viseli, ügyel, ellát
+ta, tar, tog, tagit                     take, grab, bring, touch / vesz, (el- v. meg)fog, megragad, tesz
 tacka ja/nej                            yes/no, thank you (politely accept/decline) / köszönöm/köszönöm, nem
 tala                                    speak (language) / beszél (nyelvet)
 tanka                                   fill [with petrol] / tankol [autót]
@@ -372,7 +398,7 @@ tigga                                   beg / koldul, kéreget, kunyerál
 tillföra                                provide, supply / (oda)vezet, odavisz, -hoz, szállít, ellát, ad
 tillhöra                                belong / tartozik
 tillverka                               manufacture
-tillåta, tillät, tillätit               allow / megenged, engedélyez
+tillåta, tillåter, tillät, tillätit     allow / megenged, engedélyez
 tjata                                   pester, nag / nyaggat, gyötör, korhol, zsörtölődik vkivel
 tolka                                   interpret, translate / tolmácsol, értelmez, magyaráz
 tralla                                  sing, warble / dúdolgat, dudorászik
@@ -413,8 +439,9 @@ utträda                                 withdraw / kilép, kiválik
 utöva                                   practise, exercise / gyakorol, folytat, űz, művel, elkövet
 vakna                                   wake / ébred
 vanka                                   saunter / őgyeleg
-vara                                    last / tart (időben)
+vara, är, var, varit                    be, last / van, létezik, tart (időben)
 verka                                   seem, work / látszik, mutatkozik, hat, hatással van, működik, munkálkodik
+veta, vet, visste, vetat                know / tud, ismer
 vifta                                   wave / integet, legyez
 viker                                   fold, yield / hajt, összehajt, hajtogat, enged
 vila                                    rest / pihen
@@ -423,21 +450,22 @@ vinka                                   wave / int, integet
 vinna, vinner, vann, vunnit             win / nyer, meg/elnyer, elér, szerez
 virka                                   crochet / horgol
 vissla                                  whistle / sípol, fütyül
-våga                                    dare, risk / mer, merészel, bátorkodik, kockáztat, kockára tesz
-våttorka                                wash up / felmos
 vägra                                   refuse, decline / megtagad, elutasít, visszautasít, vonakodik
 välja, valde                            choose, elect / választ, kiválaszt
 välta                                   overturn / felfordít, -borít, -dönt, felfordul, -borul, -dől
-vända                                   turn / elfordul, megfordul, vmit el/meg/kifordít
-vänja, vande                            accustom, get used to / hozzá/rá/megszokik vmit
+vända, vänder, vände, vänt              turn / elfordul, megfordul, vmit el/meg/kifordít
+vänja, vänjer, vande, vant              accustom, get used to / hozzá/rá/megszokik vmit
 värka                                   ache, hurt / fáj, sajog
 värna                                   protect / védelmez, oltalmaz, megvéd, óv
 väsa                                    hiss / sziszeg, sistereg
 väva                                    weave / sző
 växa                                    grow / nő, növekedik
-äga, äger                               own / birtokol
+våga                                    dare, risk / mer, merészel, bátorkodik, kockáztat, kockára tesz
+våttorka                                wash up / felmos
+äga, äger, ägde, ägt                    own / birtokol
 älta                                    knead, dwell on / kever, dagaszt, gyúr, (átv) rágódik vmin
 ära                                     honour / tisztel, tiszteletben tart, (nagyra) becsül
+äta, äter, åt, ätit                     eat / (meg)eszik, étkezik, rág, fal, zabál
 åka [åker]                              go, ride / megy, utazik
 åska                                    thunderstorm / mennydörgés, égzengés, égiháború
 åstadkomma                              cause, bring about, accomplish, achieve / létrehoz, (el)végez, teljesít, okoz, előidéz, kelt, elér, lehetővé tesz, csinál, tesz
