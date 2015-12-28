@@ -76,6 +76,7 @@ dunka                                   throb, pound / üt, ver, dobog, dörömb
 dunka ngn i ryggen                      pound sy on the back / megveregeti a vállát
 dyka, dök, dykt                         dive / lebukik, le- v. alámerül, lecsap
 dyka upp                                show up, turn up, emerge / felmerül, felbukkan, előbukkan
+döpa                                    baptise / keresztel
 efterträda                              succeed / követ, helyébe lép (utódként)
 erbjuda                                 offer / (fel)ajánl, kínál, mutat, nyújt, biztosít
 ersätta                                 compensate, replace, substitute / pótol, kárpótol, helyettesít
@@ -92,6 +93,7 @@ flyta                                   flow / folyik
 flämta                                  pant, puff, blow / liheg, zihál, pislákol, gyengén ég
 fnittra                                 titter, giggle / kuncog, nevetgél
 fordra                                  claim, demand, request / kíván, követel, igényel
+forsa                                   rush, gush / zuhog, zúg, özönlik, ömlik, kiárad, kiömlik, túlárad
 fortsätta                               continue, go on, carry on / folytat, vmit tovább csinál
 framföra                                present, give, convey / átad, átnyújt, előad, elmond
 fria                                    propose / megkéri a kezét vkinek
@@ -131,7 +133,7 @@ gnälla                                  whine, complain, grumble / morog, nyafo
 grubbla                                 ponder, think deeply / töpreng, tépelődik, tűnődik, elmélkedik
 grädda                                  fry, bake / megsüt
 gräla                                   quarrel, scold, argue, dispute, fight / veszekszik, pörlekedik, civakodik
-gräva                                   dig / ás, váj, túr, kutat, keresgél, turkál, kiás, előkapar
+gräva                                   dig, delve, mine / ás, váj, túr, kutat, keresgél, turkál, kiás, előkapar
 gråta                                   cry, weep / sír, megsirat
 gunga                                   swing / hintázik, himbálódzik, ring, inog
 gälla                                   pertain to, apply, concern / érint, céloz, vonatkozik, szól [vmiről], érvényes, súlya/jelentősége van, [vminek] számít
@@ -391,6 +393,7 @@ tända                                   light, ignite / meggyújt, felgyújt, b
 tänka                                   think, imagine, intend / gondol, képzel, szándékozik
 tävla                                   compete / versenyez, verseng, mérkőzik
 tåla                                    endure, tolerate / eltűr, elvisel, kibír, kiáll, megenged
+umgås                                   see (spend time with) each other / érintkezik, kapcsolatban van, összejár vkivel, jár vhova, megfordul vhol, bánik, kezel, foglalkozik
 underteckna                             sign / aláír
 undervisa                               teach / tanít
 uppgå [till]                            amount to, total / felmegy, rúg (vmennyire), elér, kitesz (vmennyit)

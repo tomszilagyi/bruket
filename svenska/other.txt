@@ -40,6 +40,7 @@ detsamma                                the same / ugyanez(t), ugyanaz(t)
 dimmig                                  foggy / ködös
 dit                                     that way, there, in that direction / oda, arra
 dock                                    yet, nevertheless, still, however / mégis, mindazonáltal, ámde, mégiscsak
+dristig                                 audacious, bold, hardy / merész, bátor, arcátlan, vakmerő, szemtelen
 dryg                                    ample, more than, over, just over / bőséges
 drygt                                   amply, over, just over / bőven, bőségesen
 duktig                                  able, capable / képes (vmire)
@@ -212,6 +213,7 @@ minst                                   at least / legalább
 minst                                   least / legkevesebb
 misstänksam                             suspicious, distrustful / gyanakvó, bizalmatlan
 mitt i                                  amid, midst / közte, közepette
+modig                                   courageous, brave, bold / bátor, elszánt, merész, rettenthetetlen
 molnfri                                 cloudless / felhőtlen
 molnig                                  cloudy / felhős
 morgonpigg                              morning alert, morning person / koránkelő, hajnali pacsirta
@@ -246,6 +248,7 @@ någorlunda                              fairly, somewhat / némi(leg), némiké
 nåja, nåväl                             oh well
 nödvändig                               necessary / szükséges, elengedhetetlen
 nöjd                                    satisfied / elégedett
+obehaglig                               unpleasant / kellemetlen, kényelmetlen
 ojdå                                    nicsak
 omedelbar                               direct, immediate / közvetlen, azonnali
 ond                                     sore, wicked, annoyed / fájó (testrész), rossz, gonosz, haragos, dühös
@@ -270,6 +273,7 @@ rejäl                                   strong, big, reliable, sure, serious, h
 ren                                     clean, pure / tiszta (átv. is)
 renlig                                  clean, cleanly / tiszta, takaros, rendes
 rik                                     wealthy, rich / vagyonos, gazdag
+rimlig                                  plausible, reasonable / elfogadható, hihető, valószínű, megfelelő, méltányos, mérsékelt
 rolig                                   funny / szórakoztató, mulatságos, kellemes, tréfás
 rostig                                  rusty, corroded, hoarse / rozsdás, rekedt
 runt hörnet                             around the corner / a sarok mögött, a sarkon túl
@@ -283,6 +287,7 @@ samt                                    and (used at end of list), as well as / 
 samtliga                                all / (az) összes, valamennyi, minden (jelenlévő)
 sent                                    late
 självfallen                             obvious, self-evident / magától értetődő, nyilvánvaló
+skicklig                                clever, capable, dexterous, skilful, competent / ügyes, jártas, gyakorlott, hozzáértő, képes, alkalmas
 skild                                   divorced, separated / elvált, elkülönített, elválasztott
 skyldig                                 in debt, owing, guilty / adós, tartozik, vétkes, bűnös, hibás
 skär                                    light red, pink / halványpiros, rózsaszín
@@ -310,6 +315,7 @@ strålande                               brilliant, radiant / sugárzó, fényl�
 stygg                                   nasty, naughty / rossz, rakoncátlan, engedetlen, csúnya, csúf, undok, komisz
 ständigt                                continuously, all the time / folyamatosan, állandóan
 stängt                                  closed / zárt, zárva lévő
+stökig                                  messy, tiresome / rendetlen, takarítatlan
 sur                                     sour, sulky / savanyú, fanyar (átv. is), savas, rosszkedvű, morcos, mogorva
 svag                                    weak / gyenge, elgyöngült, bágyadt, erőtlen, engedékeny, elnéző, csekély
 syd/söder, södra                        the south, southern

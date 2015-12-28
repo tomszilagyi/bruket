@@ -21,6 +21,7 @@ anledning, en                           cause, reason, ground / alap, alkalom, o
 anläggning, en                          construction, building, complex, equipment / létesítmény, telep, berendezés, felszerelés
 annons, en                              advert, advertisement, ad / hirdetés, hirdetmény
 ansjovis, en                            Anchovy, anchovies / szardella, sprotni
+ansträngning, en                        effort, exertion / megerőltetés, erőfeszítés, fáradozás, fáradság
 apelsin, en                             orange / narancs
 arbetstillstånd, ett                    work permit / munkavállalási engedély
 arm, en                                 arm / kar
@@ -31,6 +32,7 @@ ask, en                                 packet, box / csomag, doboz
 askkopp, en                             ashtray / hamutartó
 aula, en                                lecture hall, assembly hall / aula, díszterem
 avgift, en                              charge, fee / díj, illeték, járulék, költség
+avgrund, en                             chasm, precipice, abyss / mélység, szakadék, pokol
 avokado, en                             avocado / avokádó
 avtal, ett                              agreement, contract / megállapodás, megegyezés, szerződés, egyezmény, egyezség
 axel, en                                shoulder / váll
@@ -136,6 +138,7 @@ fjäll, ett                              mountain / hegy, magashegység, havasok
 fjäril, en                              butterfly / lepke, pillangó
 flinga, en                              flake, cornflakes / (kukorica)pehely
 fluga, en                               bow tie, fly, fad, craze / csokornyakkendő, légy, bolondéria, hóbort, bogár
+flygel, en                              grand piano / nagyzongora
 fläck, en                               spot, bruise, mark / folt, szégyenfolt, jegy
 fläkt, en                               breeze, fan / fuvallat, szellő, ventillátor, légfúvó
 fläsk, ett                              pork / disznóhús
@@ -152,6 +155,7 @@ frestelse, en                           temptation, lure / kísértés, csábít
 frimärke, ett                           stamp / bélyeg
 fruktbarhet, en                         fertility / termékenység
 fruntimmer, ett                         woman, female (pej.) / nőszemély, fehérnép
+främling, en                            alien, foreigner, stranger / idegen, külföldi, jövevény
 frö, ett                                germ, seed, embryo / mag, vetőmag, csíra, fajzat, magzat
 fröken, en                              Miss / kisasszony, hajadon (kiszolgálónő v. tanítónő megszólítása is)
 fullmakt, en                            power of attorney, authorization, authority, mandate, warrant / meg- v. felhatalmazás, kinevezés
@@ -187,6 +191,7 @@ förmåga, en                             power, ability, capacity / képesség,
 förmögenhet, en                         fortune, capital / vagyon, gazdagság, javak [átv: képességek, szellemi javak]
 förnödenhet, en                         necessity / szükséglet, (köz)szükségleti cikk
 förorening, en                          pollution, pollutant, impurity / (környezet)szennyezés, szennyezőanyag
+förråd, ett                             store, stock, supply, depot / készlet, tartalék, raktár, tárház (átv. is)
 förskola, en                            preschool / előkészítő iskola, óvoda
 förslag, ett                            proposal / javaslat
 första hjälpen [väska], en              first-aid [kit] / elsősegély[csomag]
@@ -198,6 +203,7 @@ förutsättning, en                       condition, prerequisite / feltételez�
 förväntning, en                         expectation / várakozás, elvárás
 gardin, en                              curtain, drapery / függöny, drapéria
 gem, ett                                paper clip / gemkapocs, iratkapocs
+gemenskap, en                           fellowship / közösség, kapcsolat vkivel
 genombrott, ett                         breakthrough / áttörés
 genomsnitt, ett                         average / átlag
 genre, en                               genre / műfaj
@@ -214,6 +220,7 @@ gran, en                                spruce / lucfenyő
 gravlax, en                             pickled salmon / pácolt lazac, natúrlazac svéd módra
 gren, en                                branch, field, area / ág, gally, elágazás, ágazat
 greve, en                               count / gróf
+grop, en                                cavity, hole, hollow / gödör, verem, üreg, mélyedés, gödröcske (arcon)
 grundämne, ett                          element / (kémiai) elem, alapanyag
 grädda, en                              cream (also fig.: elite) / krém (átv. is: elit)
 grädde, en                              cream / tejszín
@@ -333,7 +340,10 @@ krasch, en                              crash (also econ.) / (gazd.) összeomlá
 krig, ett                               war / háború
 kristendom, en                          Christianity / kereszténység
 kritiker, en                            critic / kritikus, bíráló, recenzens
+krock, en                               collision / összeütközés, karambol
 kropp, en                               body, trunk / test, törzs
+kruka, en                               pot, jug, jar / fazék, korsó, köcsög, virágcserép
+krukväxt, en                            pot-plant, potted plant / cserepes növény
 krydda, en                              spice / fűszer
 kräfta, en                              crayfish, cancer / rák (betegség is)
 kräftskiva, en                          crayfish party
@@ -545,6 +555,7 @@ regering, en                            government / kormány
 reningsverk, ett                        sewage treatment works / (szennyvíz)tisztító
 replik, en                              reply, retort, replica / replika, visszavágás, másodpéldány
 reserv, en                              reserve / tartalék
+resonemang, ett                         discussion, argument(ation) / okoskodás, érv(elés), okfejtés, fejtegetés, gondolatmenet, megbeszélés, vita
 rest, en                                rest, remainder / maradék, maradvány
 riksdag, en                             Parliament / parlament
 ris, ett                                sprigs, twigs / gallyak
@@ -559,6 +570,7 @@ rätt, en                                course, dish / fogás
 råd, ett                                advice, council, resources / tanács [testület is], mód vmire
 råg, en                                 rye / rozs
 råtta, en                               rat / patkány, egér
+rör, ett                                pipe, tube, valve / cső(vezeték), (elektron)cső
 rörelse, en                             motion, movement / mozgás, mozdulat
 röst, en                                voice, vote / hang, szó, szavazat
 samband, ett                            relation, connection / összefüggés, összeköttetés, kapcsolat
@@ -582,10 +594,12 @@ senap, en                               mustard / mustár
 servicehus, ett                         [block of] service flats / idősek otthona
 siames, en                              siamese cat / sziámi macska
 sill, en                                herring / hering
+sinne, ett                              sense, feeling, mind, nature, disposition / érzék, ész, (ön)tudat, lelkület, természet, kedély, kedv, hangulat, elme, hajlam
 sjal, en                                scarf / sál, (fej)kendő
 självförtroende, ett                    self-confidence / önbizalom, önértékelés
 sjöfågeldöd, en                         death of seabirds / tengeri madarak pusztulása
 sjöhäst, en                             seahorse / tengeri csikó (hal)
+skalle, en                              head, cranium, skull / fej, kobak, koponya
 skara, en                               body, multitude, troop, band, crowd / csoport, csapat, sereg, banda, falka
 skata, en                               magpie / szarka
 skildring, en                           depiction, description, portrayal / leírás, ábrázolás, elbeszélés, rajz
@@ -623,6 +637,7 @@ snickeri, ett                           joinery, carpentry / asztalosműhely, as
 soldat, en                              soldier / katona
 solsken, ett                            sunshine / napsütés
 sorg, en                                distress, sorrow, regret, grief / bánat, bú, szomorúság, fájdalom, gond, sajnálat
+spalt, en                               column (in newspaper) / hasáb, rovat (újságban)
 sparv, en                               sparrow / veréb
 spegel, en                              mirror / tükör
 spelman, en                             folk musician / népi zenész, hegedűs
