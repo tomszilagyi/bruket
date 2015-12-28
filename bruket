@@ -4,22 +4,25 @@
 -mode(compile).
 
 -define(GENDER_LIST, ["en", "ett", "pl."]).
--define(DRILL_LIST, [meaning, gender]).
+-define(DRILL_LIST, [meaning, gender, conjugation]).
 -define(INITIAL_WEIGHT, 1).
 
+-define(PROMPT, "> ").
+
 -record(word, { class    :: noun | verb | adverb | adjective | other
-                %% class-dependent, eg. gender for nouns, declension
-                %% group for verbs, etc.
               , subclass :: atom()
+                %% class-dependent, eg. gender for nouns, declension group for
+                %% verbs, etc.
               , forms    :: [string()] % forms to write the word
               , trans    :: [string()] % translations
               }).
 
--record(entry, { q     :: string()   % problem/question
+-record(entry, {type   :: choose | answer % choose from a list or type answer
+               , q     :: string()   % problem/question
                , a     :: string()   % correct answer
-                 %% list of possible (including incorrect) answers, or a
-                 %% function that generates them.
                , all_a :: [string()] | function()
+                 %% list of possible (including incorrect) answers, or a
+                 %% function that generates them. only used for type=choose.
                }).
 
 main(_Args) ->
@@ -37,9 +40,9 @@ main(_Args) ->
                       [DType] -> %% Only one drill type -- start it
                           DType;
                       _DTypes -> %% Multiple types available -- prompt
-                          prompt("What to practice?", DrillNames)
+                          prompt(choose, "What to practice?", DrillNames)
                   end,
-              Entries = entries(DrillType, Words),
+              Entries = lists:flatten(entries(DrillType, Words)),
               drill(Entries)
     end.
 
@@ -89,27 +92,46 @@ parse_entry(Class, Forms, Trans) ->
 drill_caption(meaning, N) ->
     io_lib:format("(~B)\tThe meaning of words", [N]);
 drill_caption(gender, N) ->
-    io_lib:format("(~B)\tGrammatical gender of nouns", [N]).
+    io_lib:format("(~B)\tGrammatical gender of nouns", [N]);
+drill_caption(conjugation, N) ->
+    io_lib:format("(~B)\tConjugation of verbs", [N]).
 
 entries(meaning, Words) ->
     [mk_entry(meaning, W, Words) || W <- Words];
 entries(gender, Words) ->
-    [mk_entry(gender, W, Words) || #word{class=noun} = W <- Words].
+    [mk_entry(gender, W, Words) || #word{class=noun} = W <- Words];
+entries(conjugation, Words) ->
+    [mk_entry(conjugation, W, Words) || #word{class=verb, forms=F} = W <- Words,
+                                        is_list(F), length(F) >= 3].
 
 %% Recognize the meaning of words
 mk_entry(meaning, #word{class=Class, forms=Forms, trans=Trans}, Words) ->
     GoodAnswer = string:join(Trans, ", "),
     AllAnswers = [string:join(Wo#word.trans, ", ") ||
                      Wo <- Words, Wo#word.class =:= Class],
-    #entry{q=string:join(Forms, ", "),
+    #entry{type=choose,
+           q=string:join(Forms, ", "),
            a=GoodAnswer,
            all_a=mk_choose_answers(GoodAnswer, AllAnswers)};
 %% Know the gender of nouns
 mk_entry(gender, #word{forms=[Noun, Gender | _]}, _Words) ->
     AllAnswers = ?GENDER_LIST,
-    #entry{q=Noun,
+    #entry{type=choose,
+           q=Noun,
            a=Gender,
-           all_a=AllAnswers}.
+           all_a=AllAnswers};
+%% Know the conjugated forms of verbs
+mk_entry(conjugation, #word{forms=Forms}, _Words) ->
+    F = fun(Form) ->
+                Exchg = fun(Fo) when Fo =:= Form -> {true, "___"};
+                           (_) -> true
+                        end,
+                QList = lists:filtermap(Exchg, Forms),
+                #entry{type=answer,
+                       q=string:join(QList, ", "),
+                       a=Form}
+        end,
+    lists:map(F, Forms).
 
 drill(Entries) ->
     %% Each entry in the list must be present the number of times
@@ -126,12 +148,15 @@ do_drill([Entry|Rest] = Entries) ->
         faulty  -> do_drill(shuffle([Entry|Entries]))
     end.
 
-ask(#entry{q=Q, a=GoodA, all_a=AllAnswers}, NRem) ->
-    Options = case is_function(AllAnswers) of
-                  true  -> AllAnswers();
-                  false -> AllAnswers
-              end,
-    case prompt(Q, Options, NRem) of
+ask(#entry{all_a=AllAns}=E, NRem) when is_function(AllAns) ->
+    ask(E#entry{all_a=AllAns()}, NRem); % eval function at the time of asking
+ask(#entry{type=choose, q=Q, a=GoodA, all_a=AllAns}, NRem) ->
+    ask_eval(prompt(choose, {Q, NRem}, AllAns), GoodA);
+ask(#entry{type=answer, q=Q, a=GoodA}, NRem) ->
+    ask_eval(prompt(answer, {Q, NRem}), GoodA).
+
+ask_eval(Answer, GoodA) ->
+    case Answer of
         GoodA -> correct;
         _     -> color(red, "Correct answer: "),
                  color(white, "~ts~n", [GoodA]),
@@ -164,27 +189,30 @@ choose(L, Exceptions) ->
         false -> E
     end.
 
+%% Present the user with a question and allow them to give a free-form answer.
+prompt(answer, Q) ->
+    print_question(Q),
+    Line = io:get_line(?PROMPT),
+    string:strip(Line, right, $\n).
+
 %% Present the user with a question and a list of answers and let them choose
 %% one of the answers. The chosen answer will be the return value.
-prompt(Question, Answers) ->
-    color(white, "~n~ts~n", [Question]),
-    do_prompt(Answers).
-
-prompt(Question, Answers, NRem) ->
-    io:format("~nQ.~B: ", [NRem]),
-    color(white, "~ts~n", [Question]),
+prompt(choose, Q, Answers) ->
+    print_question(Q),
     do_prompt(Answers).
 
 do_prompt(Answers) ->
     N = length(Answers),
     NumberedAnswers = lists:zip(lists:seq(1, N), Answers),
+    MaxW = lists:max([length(atom_to_list(Pr)) || {Pr, _C} <- Answers] ++ [1]),
     lists:foreach(fun({Seq, {Prompt, Caption}}) ->
-                          io:format("  ~B: ~ts\t~ts~n", [Seq, Prompt, Caption]);
+                          io:format("  ~B: ~*.ts\t~ts~n",
+                                    [Seq, MaxW+2, Prompt, Caption]);
                      ({Seq, Ans}) ->
                           io:format("  ~B: ~ts~n", [Seq, Ans])
                   end, NumberedAnswers),
     try
-        [Ch,$\n] = io:get_line("> "),
+        [Ch,$\n] = io:get_line(?PROMPT),
         ChosenSeq = list_to_integer([Ch]),
         lists:nth(ChosenSeq, Answers)
     catch _:_ ->
@@ -230,6 +258,12 @@ mk_choose_answers(GoodAnswer, AllAnswers) ->
             BadA2 = choose(AllAnswers, [GoodAnswer, BadA1]),
             shuffle([GoodAnswer, BadA1, BadA2])
     end.
+
+print_question({Question, NRem}) ->
+    io:format("~nQ.~B: ", [NRem]),
+    color(white, "~ts~n", [Question]);
+print_question(Question) ->
+    color(white, "~n~ts~n", [Question]).
 
 %% ANSI escape sequences for color support
 color(Color, Format) -> color(Color, Format, []).
