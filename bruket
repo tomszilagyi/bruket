@@ -3,7 +3,6 @@
 
 -mode(compile).
 
--define(GENDER_LIST, ["en", "ett", "pl."]).
 -define(DRILL_LIST, [meaning, gender, conjugation]).
 -define(INITIAL_WEIGHT, 1).
 
@@ -99,7 +98,10 @@ drill_caption(conjugation, N) ->
 entries(meaning, Words) ->
     [mk_entry(meaning, W, Words) || W <- Words];
 entries(gender, Words) ->
-    [mk_entry(gender, W, Words) || #word{class=noun} = W <- Words];
+    F = fun(#word{forms=[_N, Ge | _]}, Set) -> sets:add_element(Ge, Set) end,
+    GeS = lists:foldl(F, sets:new(), [W || #word{class=noun} = W <- Words]),
+    GeL = lists:sort(sets:to_list(GeS)),
+    [mk_entry(gender, W, GeL) || #word{class=noun} = W <- Words];
 entries(conjugation, Words) ->
     [mk_entry(conjugation, W, Words) || #word{class=verb, forms=F} = W <- Words,
                                         is_list(F), length(F) >= 3].
@@ -114,12 +116,11 @@ mk_entry(meaning, #word{class=Class, forms=Forms, trans=Trans}, Words) ->
            a=GoodAnswer,
            all_a=mk_choose_answers(GoodAnswer, AllAnswers)};
 %% Know the gender of nouns
-mk_entry(gender, #word{forms=[Noun, Gender | _]}, _Words) ->
-    AllAnswers = ?GENDER_LIST,
+mk_entry(gender, #word{forms=[Noun, Gender | _]}, GenderList) ->
     #entry{type=choose,
            q=Noun,
            a=Gender,
-           all_a=AllAnswers};
+           all_a=GenderList};
 %% Know the conjugated forms of verbs
 mk_entry(conjugation, #word{forms=Forms}, _Words) ->
     F = fun(Form) ->
