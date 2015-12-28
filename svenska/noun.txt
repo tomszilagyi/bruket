@@ -689,7 +689,8 @@ svett, en                               sweat, perspiration / izzadság, verít�
 svin, ett                               swine, pig / sertés, disznó
 svägerska, en                           sister-in-law / sógornő
 svärd, ett                              sword / kard
-svärfar, svärmor                        father-in-law, mother-in-law / após, anyós
+svärfar, en                             father-in-law / após
+svärmor, en                             mother-in-law / anyós
 syn, en                                 eyesight, vision / látás, látvány
 synd, en                                pity, sin, sins / bűn, vétek, kár, sajnálatos dolog
 syre, ett                               oxygen / oxigén
@@ -697,7 +698,7 @@ syrebrist, en                           lack of oxygen / oxigénhiány
 säkerhetsbält, ett                      safety belt / biztonsági öv
 sällskap, ett                           company / cég, társaság
 säng, en                                bed / ágy
-sängkläder, pl                          bedding, bedclothes / ágynemű
+sängkläder, pl.                         bedding, bedclothes / ágynemű
 såg, en                                 saw / fűrész
 sågverk, ett                            sawmill / fűrésztelep, -malom
 sökande, en                             applicant / jelentkező
