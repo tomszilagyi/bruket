@@ -30,7 +30,8 @@ main(_Args) ->
     io:setopts([{encoding, unicode}]),
     random:seed(erlang:now()),
     Words = words(),
-    Drills0 = [{DType, entries(DType, Words)} || DType <- ?DRILL_LIST],
+    Drills0 = [{DType, lists:flatten(entries(DType, Words))} ||
+                  DType <- ?DRILL_LIST],
     Drills = [{DType, length(Entries), Entries} || {DType, Entries} <- Drills0,
                                                    Entries =/= []],
     DrillNames = [{DType, drill_caption(DType, N)} || {DType, N, _} <- Drills],
@@ -43,7 +44,7 @@ main(_Args) ->
                       _DTypes -> %% Multiple types available -- prompt
                           prompt(choose, "What to practice?", DrillNames)
                   end,
-              Entries = lists:flatten(entries(DrillType, Words)),
+              {DrillType, Entries} = lists:keyfind(DrillType, 1, Drills0),
               drill(Entries)
     end.
 
