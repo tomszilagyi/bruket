@@ -1,12 +1,12 @@
 #+TITLE: Bruket
 #+AUTHOR: Tom Szilagyi
 
-* What and why?
+* Introduction
 
-What happens when you find yourself living in a foreign country you
-always wanted to be in, but with a local language you are -- to put it
-softly -- not so fluent in? Well, you try to learn it. To be able to
-understand and speak a language, you need vocabulary more than
+What happens when you find yourself living in a country where you
+always wanted to live, but with a local language you are -- to put it
+softly -- not so fluent in? Well, you set out to learn it. To be able
+to understand and speak a language, you need vocabulary more than
 anything else. Yes, you also need grammar, but without vocabulary --
 all the words for things and concepts -- you have absolutely nothing.
 
@@ -23,8 +23,7 @@ years old. If that assumption is wrong, you can stop reading here.)
 
 In one word: to learn a language, you need /repetitive exposure/ to
 the language.  You need to expose yourself again and again to those
-things you need to learn, those words you need to learn right
-now.
+things you need to learn, those words you need to learn right now.
 
 And if you happen to be a programmer, your only natural reaction to
 this realisation is to write a program to solve the problem. And that
@@ -68,3 +67,168 @@ Drill types are extendable, but you might need to do a small bit of
 programming to do that, as opposed to using the existing drill types
 where you just maintain simple text files containing the material you
 want to learn.
+
+* Word list format
+
+The word lists that you maintain are ordinary plain text files. Each
+line should correspond to a separate entry (or be completely empty to
+act as a separator). The first part of the line, starting from column
+zero, contains a word entry in the foreign language. The exact form of
+this entry is not very strictly specified, but it is best to adhere to
+a systematic format that is a comma-separated list of forms; see
+``Grammar-aware format'' below. The meaning of the fields in order
+usually depends on the word class.
+
+** General format
+
+After the entry, put some whitespace, after which you write the
+meaning of the word in your native language. If you already know
+another foreign language, you may also note the meaning of the word in
+that language. In this case, separate these two 'known' languages with
+a '/' (slash).
+
+Let's start with a simple example. We are really only starting out
+learning our language, so we haven't yet learned too much words, and
+we are keeping all of them in a single file. We don't really care
+about word class, conjugation forms, etc.
+
+In this case, we just have a file called =words.txt=, containing
+something like this:
+
+: bakre                         back
+: bo                            live (somewhere)
+: bok                           book
+: bänk                          bench
+: börja                         begin
+: dela                          cut up, split up, divide/separate into parts
+: dörr                          door
+: främre                        front
+: följa                         follow, accompany, comply
+: följande                      following
+: fönster                       window
+: intressant                    interesting
+: kort                          card
+: kort                          short
+: lämplig                       suitable, appropriate
+: mer                           more
+: papper                        paper
+: penna                         pen
+: somna                         fall asleep
+: stava                         spell
+: suddgummi                     eraser
+: tala                          speak (language)
+: tro                           believe
+: tråkig                        boring
+: undervisa                     teach
+: vägg                          wall
+
+With this file in our current directory, we start bruket and we are
+immediately able to practice the recognition of word meanings.
+
+Note that for each line, Bruket finds the longest stretch of
+whitespace and takes that as a separator between the entry forms
+(foreign language) and the meaning forms.
+
+** Grammar-aware format
+
+As you progress with your language studies, you will invariably reach
+a point where keeping all your words in a single file is no longer
+feasible. This is a good time to separate your words by class, so as a
+minimum, you should have different files for the nouns, the verbs, and
+everything else. (You can make further separations between eg.
+adjectives, adverbs, prepositions etc, but the formerly proposed
+three-way division is still mostly enough for studying up to an
+intermediate level.) The separation of word classes into different
+files is also beneficial because now you can make use of Bruket's
+other feature: drill types based on word classes.
+
+Apart from keeping different word classes in separate files, there is
+only one further issue to keep in mind. You should write your entries
+in a systematic manner, writing each word entry as a comma-separated
+list of forms. Each field should have a pre-determined meaning to you.
+
+Let's see an example of using Bruket at this level. We have three
+files, =noun.txt=, =verb.txt= and =other.txt=.
+
+The noun list looks like this:
+
+: abborre, en                   perch
+: advokat, en                   counsel, attorney, lawyer, solicitor
+: affisch, en                   poster, placard
+: affärsidé, en                 business concept
+: aktie, en                     share, stock
+: akvarium, ett                 aquarium, fish tank
+
+The article is followed by its gender, which is one of /en/, /ett/ or
+/pl./ (for plural forms). If you follow this convention, you will be
+able to play another drill, guessing the gender of nouns. The list of
+possible genders (the list you will be presented to choose from) will
+be deduced from the word entries, so Bruket does not make any
+assumptions about the language.
+
+The verb list looks like this:
+
+: anse                                    consider, regard
+: avgå                                    resign, retire, leave, depart
+: be, ber, bad, bett                      ask, request, beg, pray
+: behålla, behåller, behöll, behållit     retain, keep, hold onto
+: betyda, betyder, betydde, betytt        imply, signify, mean
+: bliva, blir, blev, blivit               become, get, be
+: bära, bär, bar, burit                   carry, wear
+: dricka, dricker, drack, druckit         drink
+
+Here, each entry is a comma-separated list of verb forms: /infinitiv/,
+/presens/, /preteritum/ and /supinum/. By following this convention,
+you will be able to play another drill, guessing the conjugation of
+verbs in the given forms.
+
+Note that Bruket does not assume anything about the number or meaning
+of the fields you supply for each word. It is up to you to come up
+with a convention suitable for your language, and to stick to it.
+
+This example also shows that you may omit the list if you don't care
+about the forms for a particular verb. For example, forms of verbs
+adhering to the general conjugation rule could be omitted, since you
+know those already. Strong and exceptional verbs, on the other hand,
+should be listed. The conjugation forms drill will omit all those
+entries that you did not supply forms for.
+
+* Drill types
+
+** Meaning of words
+
+The most basic drill type is to recognize (guess) the correct meaning
+of words. You get a foreign word and a list of meanings in your language.
+
+Prerequisite: nothing special, just make your word files adhere to the
+``General format'' (as described above).
+
+** Grammatical gender of nouns
+
+The aim is to correctly guess the gender of nouns.
+
+Prerequisite: ``Grammar-aware'' word format for the nouns in a
+separate file =noun.txt=.
+
+** Conjugation of verbs
+
+The aim is to correctly give the requested conjugations of verbs.
+
+Prerequisite: ``Grammar-aware'' word format for the verbs in a
+separate file =verb.txt=.
+* Using Bruket
+
+Using Bruket is basically equivalent to maintaining your word files,
+and periodically running the program to go through the drills.
+
+It is advisable to keep your word files in a directory under version
+control. This is not only good for backup reasons, it is also fun to
+keep history to be able to tell how your vocabulary has been growing
+over time.
+
+Bruket assumes that your word files have the extension =*.txt= and
+that they are in the current directory. You can keep multiple sets of
+word files (for different languages, or different topics of the same
+language) with the Bruket program in their root directory. Then, you
+can play with any of them via entering the directory and running
+=../bruket= from there.

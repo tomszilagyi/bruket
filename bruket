@@ -11,9 +11,6 @@
 -define(STRIP_3RD_LANGUAGE, false).
 
 -record(word, { class    :: noun | verb | adverb | adjective | other
-              , subclass :: atom()
-                %% class-dependent, eg. gender for nouns, declension group for
-                %% verbs, etc.
               , forms    :: [string()] % forms to write the word
               , trans    :: [string()] % translations
               }).
